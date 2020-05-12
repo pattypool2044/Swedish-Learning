@@ -24,3 +24,9 @@ tr:nth-firstchild(even){
 tr:nth-firstchild(odd){
      background:#FFFFFF;
 }
+span{
+   visibility:hidden;
+}
+td:active>span{
+  visibility:visible;
+}
