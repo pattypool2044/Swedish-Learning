@@ -33,9 +33,10 @@ span{
 }
 td:active>span{
   visibility:visible;
+  text-style:center;
 }
 .captation{
    text-style:center;
-   text-decoration:underlined;
+   text-decoration:underline; 
 }
 
