@@ -3,6 +3,7 @@ h1{
 color:black;
   background-color:purple;
   text-align:center;
+  margin:2px;
 }
 
 p{
@@ -10,5 +11,6 @@ color:black;
 }
 
 body{
-  background: lavender;
+  background: #E9CFEC;
+  margin:2px;
 }
