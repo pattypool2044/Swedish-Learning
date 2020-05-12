@@ -29,6 +29,7 @@ tr:nth-child(odd){
 }
 span{
    visibility:hidden;
+   text-style:center;
 }
 td:active>span{
   visibility:visible;
