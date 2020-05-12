@@ -16,7 +16,8 @@ body{
 }
 
 th,td,tr{
-border: 2px solid #000000;
+    border: 2px solid #000000;
+    text-align: center;
 }
 tr:nth-firstchild(even){
      background:yellow;
