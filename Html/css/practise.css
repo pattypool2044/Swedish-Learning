@@ -34,3 +34,8 @@ span{
 td:active>span{
   visibility:visible;
 }
+.captation{
+   text-style:center;
+   text-decoration:underlined;
+}
+
