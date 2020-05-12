@@ -14,3 +14,13 @@ body{
   background: #E9CFEC;
   margin:2px;
 }
+
+th,td,tr{
+border: 2px solid #000000;
+}
+tr:nth-firstchild(even){
+     background:yellow;
+}
+tr:nth-firstchild(odd){
+     background:#FFFFFF;
+}
