@@ -18,6 +18,8 @@ body{
 th,td,tr{
     border: 2px solid #000000;
     text-align: center;
+    padding:3px;
+   margin: 2px;
 }
 tr:nth-child(even){
      background:yellow;
