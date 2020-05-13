@@ -4,9 +4,10 @@ h2{
   background:yellow;
 }
 nav{
+  box-sizing:border-box;
+  border
   color:black;
   background-color:purple;
-  border-sizing:borderbox;
   text-align:center;
   margin:3px;
   width:25px;
@@ -14,15 +15,12 @@ nav{
   padding:2px;
 }
 
-nav a:active{
-    color:#FFFFFF;
-}
-
 nav a{
+    box-sizing:border-box;
     display:inline-block;
-    border:1px solid #000000;
     background-color:blue;
     padding:2px;
+    border-radius:15px;
 }
 
 
