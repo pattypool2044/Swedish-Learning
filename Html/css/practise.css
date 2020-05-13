@@ -53,7 +53,7 @@ td:active>span{
 .cal caption{
    text-style:center;
    text-decoration:underline; 
-   font-size:80px;
+   font-size:75px;
    background-color:yellow;
    border: 2px solid #000000;
    border-radius: 0 0 25px 25px;
@@ -74,4 +74,9 @@ border-radius: 0 0 0 25px;
 tr:last-child>td:last-child{
  border-radius: 0 0 25px 0;
   -webkit-border-radius: 0 0 25px 0;
+}
+
+td:active>span:touch{
+  visibility:visible;
+  background-color:red;
 }
