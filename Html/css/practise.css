@@ -1,8 +1,12 @@
-
+h2{
+  text-align:center;
+  font-size:35px;
+  background:yellow;
+}
 nav{
   color:black;
   background-color:purple;
-  border: 2px solid #000000;
+  border-sizing:borderbox;
   text-align:center;
   margin:3px;
   width:25px;
