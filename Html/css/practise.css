@@ -44,13 +44,22 @@ nav a{
   text-align: center;
 }
 
-.active{
+.current{
   background-color: #D7BFDC;
 }
 
-a:hover{
+a:hover {
    color: #00B2FF;
    background: #CD5C5C;
+}
+
+a:focus: {
+  background: #FFE5B4;
+  color: #666666;
+}
+
+a:active {
+  border: 3px solid #000000;
 }
 
 /* End Navigation*/
@@ -162,7 +171,8 @@ div:hover{
 }
 
 .animate{
-  background: #92B901;
+   background: url("../imgs/smiley5.png");
+   background-repeat: no-repeat;
   -webkit-transition:-webkit-transform 1s, opacity;
   -webkit-border.border-radius: 5px;
   -o-transition-property:width,height,-o-transition-property;
