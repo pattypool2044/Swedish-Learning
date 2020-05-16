@@ -216,6 +216,16 @@ div:hover{
   background: #1EC7E6;
   width: 110px;
   height: 110px;
+    -webkit-transition:-webkit-transform 1s, opacity;
+  -webkit-border.border-radius: 5px;
+  -o-transition-property:width,height,-o-transition-property;
+  -o-transition-duration:1s,1s,1s,1s,1s,1s;
+  -moz-transition-property:width,height,-o-transition-property;
+  -moz-transition-duration:1s,1s,1s,1s,1s,1s;
+  transition-property:width,height,transform,-o-transition-property;
+  transition-duration: 1s,1s,1s,1s,1s,1s;
+  transition: background 1s,1s ease-in-out;
+  opacity: 0.4; 
 }
 
 /*End Animate fun*/
