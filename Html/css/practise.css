@@ -133,10 +133,12 @@ font-size: 25px;
 ul{
      font-size: 25px;
      margin:2px;
+     padding-left: 150px;
  } 
 
+
  li{
-  margin-left: 135px;
+  margin-left: 155px;
  }  
 
 /* End List*/
