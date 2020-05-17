@@ -3,6 +3,17 @@ body{
   background: #E9CFEC;
 }
 
+img{
+  border: 2px solid #000000;
+}
+
+.center {
+  display: block;
+ margin-left: auto;
+  margin-right: auto;
+ width: 50%;
+} 
+
 header{
   text-transform: uppercase;
   background-color: #AF69EE;
