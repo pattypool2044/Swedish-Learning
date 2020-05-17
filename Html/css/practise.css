@@ -104,17 +104,23 @@ nav1{
 }
 
 nav1 a{
-
   display: block;
-  line-height: 45px;
+  line-height: 25px;
   height: 45px;
   color:#FFFFFF;
   background-color: #CEBEEF;
   text-decoration: none;
   background-color: #9370DB;
-  background:url("../imgs/arrow2.png");
-  background-repeat: no-repeat;
   padding-left: 50px;
+    margin-right:4%;
+  text-decoration: none;
+  height:15px;
+  border-radius: 15%;
+  padding:15px;
+  padding-bottom: 15px;
+  margin:12px;
+  font-size: 15px;
+  text-align: center;
 }
 
 /* End Navigation Vertical*/
