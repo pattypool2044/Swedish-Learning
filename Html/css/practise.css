@@ -41,7 +41,7 @@ h2{
 }
 
 
-/* Start Navigation*/
+/* Start Navigation Horizontal*/
 
 nav{
    text-transform: capitalize;
@@ -65,8 +65,9 @@ nav a{
 
  .active {
   background-color: #FFFFFF;
-  border: 3px solid #000000;
+   border: 3px solid #000000;
 }
+
 a:hover {
    color: #00B2FF;
    background: #CD5C5C;
@@ -77,8 +78,46 @@ a:focus: {
   color: #666666;
 }
 
+/* End Navigation Horizontal*/
 
-/* End Navigation*/
+/* End Navigation Vertical*/
+
+nav1{
+  box-sizing:borderbox
+  border:1px solid #9370DB;
+  color:#06425C;
+  background-color: #CEBEEF;
+  padding: 15px;
+  background: #CEBEEF;
+  background: -moz-linear-gradient(top,#9370DB);
+  background: -webkit-linear-gradient(#CEBEEF 0%, #9370DB 100%);
+  background: -o-linear-gradient(#CEBEEF 0%, #9370DB 100%);
+  background: linear gradient(#CEBEEF 0%, #9370DB 100%);
+  background: -ms-linear-gradient(top,  #CEBEEF 0%,#9370DB 100%); /* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE6-9 */
+  display: inline-block;
+  width:10%;
+  margin-right: 15px;
+  height: 100vh;
+  overflow: auto;
+  float:left;
+}
+
+nav1 a{
+
+  display: block;
+  line-height: 45px;
+  height: 45px;
+  color:#FFFFFF;
+  background-color: #CEBEEF;
+  text-decoration: none;
+  background-color: #9370DB;
+  background:url("../imgs/arrow.png");
+  background-repeat: no-repeat;
+  padding-left: 50px;
+}
+
+/* End Navigation Vertical*/
 p{
 color:black;
 font-size: 25px;
