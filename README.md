@@ -1,3 +1,2 @@
-# practisecoding
-Training
-I have done some courses about coding and will start practising now.
+# Swedish-Learning
+Combining learning Swedish and Coding
