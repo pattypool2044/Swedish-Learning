@@ -99,7 +99,7 @@ nav1{
   display: inline-block;
   width:10%;
   margin-right: 15px;
-  height: 500vh;
+  height: 700vh;
   overflow: auto;
   float:left;
 }
@@ -183,7 +183,7 @@ td,tr{
 }
 
 .zoom:hover {
-  -ms-transform: scale(1.5); /* IE 9-12 */
+  -ms-transform: scale(1.5); /* IE 9+ */
   -webkit-transform: scale(1.5); /* Safari 3-18 */
   transform: scale(1.5); 
 }
