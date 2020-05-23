@@ -1,7 +1,10 @@
 body{
   background: #E9CFEC;
   margin: 25px;
-  border-top: 1px solid #000000;
+  border-top: 8px solid #9370DB;
+  border-left: 8px solid #9370DB;
+  border-right: 8px solid #9370DB;
+  margin-left: 3PX;
 
 }
 
@@ -37,7 +40,7 @@ h1{
 
 h2{
   font-size: 35px;
-  margin-left: 2px;
+  margin-left: 3px;
   background:#F5E1FD;
 }
 
@@ -52,7 +55,7 @@ nav{
   
 nav a{
   background-color: rgba(238,130,240,.3);
-  color: #311432;
+  color: #000000;
   display: inline-block;
   margin-right:4%;
   text-decoration: none;
@@ -129,6 +132,7 @@ nav1 a{
 p{
 color:black;
 font-size: 20px;
+margin-left: 3PX;
 }
 
 /* Start List*/
@@ -176,20 +180,24 @@ td,tr{
 
 /* End Tables*/
 
-/* Start Time*/
+
+/* Start zoom and audio*/
 .zoom {
   transition: transform .2s;
   margin: 0 auto;
 }
 
 .zoom:hover {
-  -ms-transform: scale(1.5); /* IE 9+ */
+  -ms-transform: scale(1.5); /* IE 9 -12*/
   -webkit-transform: scale(1.5); /* Safari 3-18 */
   transform: scale(1.5); 
 }
+
 audio{
   width: 105px !important;
   display:block;
-}
-/* End Time*/
+  border-radius: 45px 45px  45px 45px;
+  text-align: center;
 
+}
+/* End zoom and audio*/
