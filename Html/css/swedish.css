@@ -187,5 +187,8 @@ td,tr{
   -webkit-transform: scale(1.5); /* Safari 3-18 */
   transform: scale(1.5); 
 }
+audio{
+  width: 105px;
+}
 /* End Time*/
 
