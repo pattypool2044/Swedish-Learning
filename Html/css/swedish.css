@@ -189,6 +189,7 @@ td,tr{
 }
 audio{
   width: 105px;
+  float:none;
 }
 /* End Time*/
 
