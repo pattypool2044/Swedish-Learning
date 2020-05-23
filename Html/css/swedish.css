@@ -188,9 +188,8 @@ td,tr{
   transform: scale(1.5); 
 }
 audio{
-  width: 105px;
-  float:none;
-  margin: 1px 0 1px 0;
+  width: 105px !important;
+  display:block;
 }
 /* End Time*/
 
