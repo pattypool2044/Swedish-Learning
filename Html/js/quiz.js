@@ -1,4 +1,5 @@
-var myQuestions = [
+function myQuestions{
+    var myQuestions = [
     {
         question: "What is 10/2?",
         answers: {
@@ -17,7 +18,8 @@ var myQuestions = [
         },
         correctAnswer: 'c'
     }
-
+        
+        }
 ];
 
 var quizContainer = document.getElementById('quiz');
