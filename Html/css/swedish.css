@@ -1,11 +1,10 @@
 body{
   background: #E9CFEC;
   margin: 25px;
+  border:1500vh;
   margin-left: 3PX;
-  border-top: 8px solid #9370DB;
-  border-left: 8px solid #9370DB;
-  border-right: 8px solid #9370DB;
-
+  border: 8px solid #9370DB;
+ 
 }
 
 img{
@@ -13,6 +12,8 @@ img{
   height: 75px;
   width: 75px;
 }
+
+
 .center {
   display: block;
  margin-left: auto;
@@ -173,7 +174,7 @@ td,tr{
   }
 
  td {
-        width: 150px;
+        width: 130px;
         text-align: center;
         border: 1px solid #000000;
         padding: 5px;
@@ -198,32 +199,28 @@ td,tr{
 audio{
   width: 105px !important;
   display:block;
-  border-radius: 45px 45px  45px 45px;
-  text-align: center;
-
 }
+
 /* End zoom and audio*/
 
 /* Start Quiz*/
+#frame001 {
+    height:270px;
+    width: 350px;
+    background-color: #E9CFEC;
+    border: 3px solid #000000;
+    margin: 4px;
+    padding: 2px;
+    border-radius: 10px;
 }
-.question{
-    font-weight: 600;
+#center001{
+    text-align: left;
+    color: black;
+    font-size: 15px;
 }
-.answers {
-    margin-bottom: 20px;
+
+h3{
+    background: #FAFAFA;
 }
-#submit{
-    font-family: sans-serif;
-    font-size: 20px;
-    background-color: #297;
-    color: #fff;
-    border: 0px;
-    border-radius: 3px;
-    padding: 20px;
-    cursor: pointer;
-    margin-bottom: 20px;
-}
-#submit:hover{
-    background-color: #3a8;
-}
+
 /* End Quiz*/
