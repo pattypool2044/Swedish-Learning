@@ -191,9 +191,9 @@ td,tr{
 }
 
 .zoom:hover {
-  -ms-transform: scale(1.5); /* IE 9 -12*/
-  -webkit-transform: scale(1.5); /* Safari 3-18 */
-  transform: scale(1.5); 
+  -ms-transform: scale(1.2); /* IE 9 -12*/
+  -webkit-transform: scale(1.2); /* Safari 3-18 */
+  transform: scale(1.2); 
 }
 
 audio{
