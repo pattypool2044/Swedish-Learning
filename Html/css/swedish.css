@@ -158,14 +158,14 @@ ul{
 table,th,tr,td{
   border-collapse: separate;
   border-spacing: 3px 0px;
-  margin: 5px;
+  margin: 9px;
   padding: 4px;
   font-size: 20px;
 }
 
 th{
   background-color: #FFFF99;
-  font-size: 25px;
+  font-size: 20px;
   border: 2px solid #000000;
 }
 
