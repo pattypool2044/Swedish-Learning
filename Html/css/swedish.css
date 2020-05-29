@@ -9,8 +9,8 @@ body{
 
 img{
   border: 2px solid #000000;
-  height: 75px;
-  width: 75px;
+  height: 70px;
+  width: 70px;
 }
 
 
@@ -188,12 +188,15 @@ td,tr{
 .zoom {
   transition: transform .2s;
   margin: 0 auto;
+  visibility: all;
+
 }
 
 .zoom:hover {
   -ms-transform: scale(1.2); /* IE 9 -12*/
   -webkit-transform: scale(1.2); /* Safari 3-18 */
   transform: scale(1.2); 
+  visibility: all;
 }
 
 audio{
