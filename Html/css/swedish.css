@@ -9,8 +9,8 @@ body{
 
 img{
   border: 2px solid #000000;
-  height: 70px;
-  width: 70px;
+  height: 75px;
+  width: 75px;
 }
 
 
@@ -157,8 +157,8 @@ ul{
 
 table,th,tr,td{
   border-collapse: separate;
-  border-spacing: 3px 0px;
-  margin: 9px;
+  border-spacing: 2px 0px;
+  margin: 5px;
   padding: 4px;
   font-size: 20px;
 }
@@ -174,7 +174,7 @@ td,tr{
   }
 
  td {
-        width: 130px;
+        width: 150px;
         text-align: center;
         border: 1px solid #000000;
         padding: 5px;
@@ -193,15 +193,15 @@ td,tr{
 }
 
 .zoom:hover {
-  -ms-transform: scale(1.2); /* IE 9 -12*/
-  -webkit-transform: scale(1.2); /* Safari 3-18 */
-  transform: scale(1.2); 
+  -ms-transform: scale(1.5); /* IE 9 -12*/
+  -webkit-transform: scale(1.5); /* Safari 3-18 */
+  transform: scale(1.5); 
   visibility: all;
 }
 
 audio{
-  width: 100px !important;
-  display:block;
+  width: 99px !important;
+  display:inline-block;
 }
 
 /* End zoom and audio*/
