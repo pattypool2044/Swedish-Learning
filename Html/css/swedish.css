@@ -180,7 +180,10 @@ td,tr{
         padding: 5px;
       }
 
-
+td:hover {
+  background: #87CEEB;
+  font-weight: bold; 
+}
 /* End Tables*/
 
 
