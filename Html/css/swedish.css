@@ -1,8 +1,6 @@
 body{
   background: #E9CFEC;
-  margin: 25px;
-  border:1500vh;
-  margin-left: 3PX;
+  margin: 6PX;
   border: 8px solid #9370DB;
  
 }
@@ -174,7 +172,7 @@ td,tr{
   }
 
  td {
-        width: 150px;
+        width: 160px;
         text-align: center;
         border: 1px solid #000000;
         padding: 5px;
@@ -203,7 +201,7 @@ td:hover {
 }
 
 audio{
-  width: 99px !important;
+  width: 100px !important;
   display:inline-block;
 }
 
