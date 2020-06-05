@@ -200,6 +200,13 @@ td:hover {
   visibility: all;
 }
 
+img:hover {
+  -ms-transform: scale(1.5); /* IE 9 -12*/
+  -webkit-transform: scale(1.5); /* Safari 3-18 */
+  transform: scale(1.2); 
+  visibility: all;
+}
+
 audio{
   width: 100px !important;
   display:inline-block;
