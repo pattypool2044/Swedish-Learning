@@ -195,15 +195,15 @@ td:hover {
 
 .zoom:hover {
   -ms-transform: scale(1.5); /* IE 9 -12*/
-  -webkit-transform: scale(1.5); /* Safari 3-18 */
+  -webkit-transform: scale(1.5); /* Safari 11+*/
   transform: scale(1.2); 
   visibility: all;
 }
 
 img:hover {
   -ms-transform: scale(1.5); /* IE 9 -12*/
-  -webkit-transform: scale(1.5); /* Safari 3-18 */
-  transform: scale(1.2); 
+  -webkit-transform: scale(1.5); /* Safari 11+ */
+  transform: scale(1.6); 
   visibility: all;
 }
 
