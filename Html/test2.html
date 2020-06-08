@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=0.65"> 
 <title>Test2</title>
   <link rel="stylesheet" type="text/css" href="css/swedish.css">
-  <script scr="js/quiz.js"></script>
+  <script src = "js/quiz.js"></script>
   </head>
 
   <body>
@@ -20,8 +21,75 @@
     </nav>
   </header>
  
+<form id = "quiz1" name = "quiz1">
 
-   <br> 
+<table>
+  <h2>Quiz Lesson 1 - 8</h2>
+
+  <p><b>Q1: How do you say Yellow in Swedish?</b></p>                       
+  <input type = "radio" id = "mc" name = "question4" value = "Röd"> Röd     
+  <input type = "radio" id = "mc" name = "question4" value = "Gul"> Gul
+  <input type = "radio" id = "mc" name = "question4" value = "Vit"> Vit     
+
+  <p><b>Q2: How do you say Thursday in Swedish?</b></p>
+  <input type = "radio" id = "mc" name = "question5" value = "Onsdag"> Onsdag
+  <input type = "radio" id = "mc" name = "question5" value = "Sundag"> Sundag
+  <input type = "radio" id = "mc" name = "question5" value = "Torsdag"> Torsdag
+
+    <p><b>Q3: How do you say It Is Nine O'Clock in Swedish?</b></p>
+    <input type = "radio" id = "mc" name = "question6" value = "Klockan är nio"> Klockan är nio
+  <input type = "radio" id = "mc" name = "question6" value = "Klockan är halv två"> Klockan är halv två
+  <input type = "radio" id = "mc" name = "question6" value = "Klockan är ett"> Klockan är ett
+
+    <p><b>Q4: What is Hello in Swedish?</b></p>
+    <input type = "radio" id = "mc" name = "question7" value = "Hej"> Hej
+  <input type = "radio" id = "mc" name = "question7" value = "Hej då"> Hej då
+  <input type = "radio" id = "mc" name = "question7" value = "Välkommen"> Välkommen
+
+  <p><b>Q5: What is Thirteen in Swedish?</b></p>
+    <input type = "radio" id = "mc" name = "question8" value = "ett"> ett
+  <input type = "radio" id = "mc" name = "question8" value = "tretton"> tretton
+  <input type = "radio" id = "mc" name = "question8" value = "tjugo"> tjugo
+  
+    <p><b>Q6: What is the 3rd letter in the Swedish Alphabet?</b></p>
+    <input type = "radio" id = "mc" name = "question9" value = "Z"> Z
+  <input type = "radio" id = "mc" name = "question9" value = "C"> C
+  <input type = "radio" id = "mc" name = "question9" value = "P"> P
+
+
+    <p><b>Q7: Which letters are different from the English Alphabet?</b></p>
+    <input type = "radio" id = "mc" name = "question10" value = "Å, Ä, Ö"> Å, Ä, Ö
+  <input type = "radio" id = "mc" name = "question10" value = "R, Z, Q"> R, Z, Q
+  <input type = "radio" id = "mc" name = "question10" value = "P, L, K"> P, L, K
+
+
+    <p><b>Q8: How do you ask someone's Name in Swedish?</b></p>
+    <input type = "radio" id = "mc" name = "question11" value = "Hur mår du?"> Hur mår du?
+  <input type = "radio" id = "mc" name = "question11" value = "Vad heter du?"> Vad heter du?
+  <input type = "radio" id = "mc" name = "question11" value = "Bra, tack"> Bra, tack
+
+    <p><b>Q9: How do you say Several Forks in Swedish?</b></p>
+    <input type = "radio" id = "mc" name = "question12" value = "Flera lampor"> Flera lampor
+  <input type = "radio" id = "mc" name = "question12" value = "Flera gafflar"> Flera gafflar
+  <input type = "radio" id = "mc" name = "question12" value = "En gaffel"> En gaffel
+
+
+    <p><b>Q10: How do you say June in Swedish?</b></p>
+    <input type = "radio" id = "mc" name = "question13" value = "September"> September
+  <input type = "radio" id = "mc" name = "question13" value = "Blå"> Blå
+  <input type = "radio" id = "mc" name = "question13" value = "Juni"> Juni<br>
+
+</table>
+  <input id = "button" type = "button" value = "I'm finished!" onclick="checkA();">
+</form> 
+
+
+<div id = "after_submit1">
+  <p id = "message1"></p>
+  <p id = "number_correct1"></p>
+  <img id = "picture1">
+</div>
+
 
 </body>
 
