@@ -211,3 +211,93 @@ function result001(){
   comment002.innerHTML = "If you scored lower than 2, please keep practising";
   
 }
+
+///////////////////////////////////
+
+function checkA(){
+
+  var question4 = document.quiz1.question4.value;
+  var question5 = document.quiz1.question5.value;
+  var question6 = document.quiz1.question6.value;
+  var question7 = document.quiz1.question7.value;
+  var question8 = document.quiz1.question8.value;
+  var question9 = document.quiz1.question9.value;
+  var question10 = document.quiz1.question10.value;
+  var question11 = document.quiz1.question11.value;
+  var question12 = document.quiz1.question12.value;
+  var question13 = document.quiz1.question13.value;
+  var correct = 0;
+
+      if (question4 == "Gul") {
+        correct++;
+        }
+
+      if (question5 == "Torsdag") {
+        correct++;
+        }
+
+      if (question6 == "Klockan är nio") {
+        correct++;
+      }
+
+      if (question7 == "Hej") {
+        correct++;
+        }
+
+      if (question8 == "tretton") {
+        correct++;
+        }
+
+      if (question9 == "C") {
+        correct++;
+      }
+
+      if (question10 == "Å, Ä, Ö") {
+        correct++;
+        }
+
+      if (question11 == "Vad heter du?") {
+        correct++;
+        }
+
+      if (question12 == "Flera gafflar") {
+        correct++;
+      }
+
+      if (question13 == "Juni") {
+        correct++;
+      }
+
+
+var messages = ["Perfect Score", "Great Job!", "That's just okay", "You really need to do better"];
+var pictures = ["img/perfect.gif", "img/win.gif", "img/meh.gif", "img/sad.gif"];
+var range;
+
+        if (correct < 1){
+        range = 3;
+        }
+
+        if (correct > 0 && correct < 9){
+          range = 2;
+        }
+
+        if (correct > 7 && correct < 10){
+          range = 1;
+        }
+
+        if (correct > 9){
+          range = 0;
+        }
+
+
+       
+document.getElementById("after_submit1").style.visibility = "visible";
+
+document.getElementById("message1").innerHTML = messages[range];
+document.getElementById("number_correct1").innerHTML = "You got " + correct + " correct."; 
+document.getElementById("picture1").src = pictures[range];   
+
+}
+
+
+////////////////////////////////////////////////////////
