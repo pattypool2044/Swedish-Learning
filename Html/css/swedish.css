@@ -2,7 +2,6 @@ body{
   background: #E9CFEC;
   margin: 6PX;
   border: 8px solid #9370DB;
- 
 }
 
 img{
@@ -238,3 +237,38 @@ h3{
 }
 
 /* End Quiz*/
+
+
+
+/* start new layout Quiz*/
+
+#quiz1 {
+    margin-left: 10px;
+    background: #FFB6C1;
+    padding: 10px 20px 10px 20px;
+    width: 400px;
+    float: inherit;
+   float:left;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+
+#after_submit1 {
+    visibility: hidden;
+    background: #008000;
+    padding: 10px 10px 10px 10px;
+    width: 400px;
+    float: left;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    margin-left: 20px;
+    font-size: 30px
+}
+
+#picture1{
+    width: 245px;
+    height: 245px;
+}
+
+/* end new layout Quiz*/
