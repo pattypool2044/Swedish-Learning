@@ -272,3 +272,7 @@ h3{
 }
 
 /* end new layout Quiz*/
+p img{
+  width: 500px;
+  height: 450px;
+}
