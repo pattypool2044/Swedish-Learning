@@ -18,6 +18,9 @@ img{
  width: 50%;
 } 
 
+b{
+  color: red;
+}
 header{
   text-transform: uppercase;
   background-color: #AF69EE;
