@@ -171,10 +171,11 @@ th{
 
 td,tr{
   background-color: #FFFFE6;
+  width: 50%
   }
 
  td {
-        width: 160px;
+        width: 200px;
         text-align: center;
         border: 1px solid #000000;
         padding-left: 5px;
@@ -279,3 +280,4 @@ p img{
   width: 45%;
   height: 350px;
 }
+
