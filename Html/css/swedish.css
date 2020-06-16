@@ -135,7 +135,7 @@ nav1 a{
 p{
 color:black;
 font-size: 20px;
-margin-left: 3PX;
+margin-left: 3px;
 }
 
 /* Start List*/
@@ -276,8 +276,35 @@ h3{
 }
 
 /* end new layout Quiz*/
+
+/* Start change image on its own*/
 p img{
   width: 45%;
   height: 350px;
 }
+/* End change image on its own*/
 
+/* Start next and previous buttons*/
+a:hover {
+  background-color: blue;
+  color: black;
+}
+
+.previous {
+  background-color: #FFFF33;
+  color: black;
+  float: inherit;
+  font-size: 20px;
+}
+
+.next {
+  background-color: #FFFF33;
+  color: black;
+  float: right;
+  font-size: 20px;
+}
+/* End next and previous buttons*/
+
+p1{
+  border:1px solid #000000;
+}
