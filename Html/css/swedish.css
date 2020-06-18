@@ -1,5 +1,5 @@
 body{
-  background: #E9CFEC;
+  background: #EEDAF0;
   margin: 6PX;
   border: 8px solid #9370DB;
 }
@@ -305,6 +305,3 @@ a:hover {
 }
 /* End next and previous buttons*/
 
-p1{
-  border:1px solid #000000;
-}
