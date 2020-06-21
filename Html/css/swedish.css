@@ -1,8 +1,8 @@
 body{
-  background: #EEDAF0;
+  background-color: #EEDAF0;
   margin: 6PX;
-  border: 8px solid #9370DB;
 }
+
 
 img{
   border: 2px solid #000000;
@@ -225,15 +225,16 @@ audio{
     height:270px;
     width: 350px;
     background-color: #E9CFEC;
+    border-radius: 25px 25px 25px 25px;
     border: 3px solid #000000;
-    margin: 4px;
     padding: 2px;
-    border-radius: 10px;
+    margin: 4px;
+    background-image: ../imgs/smiley.jpg;
 }
 #center001{
     text-align: left;
     color: black;
-    font-size: 15px;
+    font-style: 15px;
 }
 
 h3{
@@ -243,39 +244,29 @@ h3{
 /* End Quiz*/
 
 
+/* Start Quiz 2*/
+#frame002 {
+    height:270px;
+    width: 350px;
+    background-color: #E9CFEC;
+    border-radius: 25px 25px 25px 25px;
+    border: 3px solid #000000;
+    margin: -1.5px;
+    padding: 2px;
+   
+}
+#center002 {
+    text-align: left;
+    color: black;
+    font-style: 15px;
+}
 
-/* start new layout Quiz*/
-
-#quiz1 {
-    margin-left: 10px;
-    background: #FFB6C1;
-    padding: 10px 20px 10px 20px;
-    width: 400px;
-    float: inherit;
-   float:left;
-    border: 2px solid #000000;
-    border-radius: 20px;
+h3{
+    background: #FAFAFA;
 }
 
 
-#after_submit1 {
-    visibility: hidden;
-    background: #008000;
-    padding: 10px 10px 10px 10px;
-    width: 400px;
-    float: left;
-    border: 2px solid #000000;
-    border-radius: 20px;
-    margin-left: 20px;
-    font-size: 30px
-}
-
-#picture1{
-    width: 245px;
-    height: 245px;
-}
-
-/* end new layout Quiz*/
+/* End Quiz 2*/
 
 /* Start change image on its own*/
 p img{
@@ -304,4 +295,3 @@ a:hover {
   font-size: 20px;
 }
 /* End next and previous buttons*/
-
