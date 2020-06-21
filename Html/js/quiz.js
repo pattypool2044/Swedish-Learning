@@ -8,9 +8,9 @@ var question003 = ["Q3: How do you say It Is Nine O'Clock in Swedish"];
 var choises003 = ["<input onclick=correct003() name=button003 type=radio />Klockan är nio<br/> <input onclick=incorrect003() name=button003 type=radio />Klockan är halv två<br/> <input onclick=incorrect003() name=button003 type=radio />Klockan är ett<br />"];
 
 var question004 = ["Q4: What is Hello in Swedish?"];
-var choises004 = ["<input onclick=correct004() name=button004 type=radio />Hej<br/> <input onclick=incorrect005() name=button004 type=radio />Hej då<br/> <input onclick=incorrect004() name=button004 type=radio />Välkommen<br />"];
+var choises004 = ["<input onclick=correct004() name=button004 type=radio />Hej<br/> <input onclick=incorrect004() name=button004 type=radio />Hej då<br/> <input onclick=incorrect004() name=button004 type=radio />Välkommen<br />"];
 
-var question005 = ["Q5: What is Thirteen in Swedish?"];
+var question005 = ["Q5: What is Thirteen in Swedish?"]
 var choises005 = ["<input onclick=incorrect005() name=button005 type=radio />ett<br/> <input onclick=correct005() name=button005 type=radio />tretton<br/> <input onclick=incorrect005() name=button005 type=radio />tjugo<br />"];
 
 var question006 = ["Q6: What is the 3rd letter in the Swedish Alphabet?"];
@@ -39,14 +39,14 @@ var i;
 var j;
 var k;
 var c;
-
-
-window.onload = function(){
+ 
+///////////
+window.addEventListener('load', function(){
   a = 0;
 message001.innerHTML = question001;
 options001.innerHTML = choises001;
 click001.innerHTML = "<button onclick=set002()>Submit</button";                                  
-}
+});
 
 function correct001() {
   a = 1;
@@ -212,92 +212,218 @@ function result001(){
   
 }
 
-///////////////////////////////////
-
-function checkA(){
-
-  var question4 = document.quiz1.question4.value;
-  var question5 = document.quiz1.question5.value;
-  var question6 = document.quiz1.question6.value;
-  var question7 = document.quiz1.question7.value;
-  var question8 = document.quiz1.question8.value;
-  var question9 = document.quiz1.question9.value;
-  var question10 = document.quiz1.question10.value;
-  var question11 = document.quiz1.question11.value;
-  var question12 = document.quiz1.question12.value;
-  var question13 = document.quiz1.question13.value;
-  var correct = 0;
-
-      if (question4 == "Gul") {
-        correct++;
-        }
-
-      if (question5 == "Torsdag") {
-        correct++;
-        }
-
-      if (question6 == "Klockan är nio") {
-        correct++;
-      }
-
-      if (question7 == "Hej") {
-        correct++;
-        }
-
-      if (question8 == "tretton") {
-        correct++;
-        }
-
-      if (question9 == "C") {
-        correct++;
-      }
-
-      if (question10 == "Å, Ä, Ö") {
-        correct++;
-        }
-
-      if (question11 == "Vad heter du?") {
-        correct++;
-        }
-
-      if (question12 == "Flera gafflar") {
-        correct++;
-      }
-
-      if (question13 == "Juni") {
-        correct++;
-      }
+///////////////////////////////////START 2ND QUIZ/////////////////
 
 
-var messages = ["Perfect Score", "Great Job!", "That's just okay", "You really need to do better"];
-var pictures = ["img/perfect.gif", "img/win.gif", "img/meh.gif", "img/sad.gif"];
-var range;
+var question011 = ["Q11: Translate: I am a woman"];
+var choises011 = ["<input onclick=incorrect011() name=button011 type=radio />Hon är min granne<br/> <input onclick=correct011() name=button011 type=radio />Jag är en kvinna<br/> <input onclick=incorrect011() name=button011 type=radio />Han går till skolan<br />"];
 
-        if (correct < 1){
-        range = 3;
-        }
+var question012 = ["Q12: Translate: We"];
+var choises012 = ["<input onclick=incorrect012() name=button012 type=radio />Jag<br/> <input onclick=incorrect012() name=button012 type=radio />Ni<br/> <input onclick=correct012() name=button012 type=radio />Vi<br />"];
 
-        if (correct > 0 && correct < 9){
-          range = 2;
-        }
+var question013 = ["Q13: Translate: Where (to)..?"];
+var choises013 = ["<input onclick=correct013() name=button013 type=radio />Vart..?<br/> <input onclick=incorrect013() name=button013 type=radio />Var..?<br/> <input onclick=incorrect013() name=button013 type=radio />Varifrån..?<br />"];
 
-        if (correct > 7 && correct < 10){
-          range = 1;
-        }
+var question014 = ["Q14: Translate: How much is that car?"];
+var choises014 = ["<input onclick=correct014() name=button014 type=radio />Hur mycket är den bilen?<br/> <input onclick=incorrect014() name=button014 type=radio />När ska du gå i skolan?<br/> <input onclick=incorrect014() name=button014 type=radio />Hur många bilar har du?<br />"];
 
-        if (correct > 9){
-          range = 0;
-        }
+var question015 = ["Q15: Translate: At work."];
+var choises015 = ["<input onclick=incorrect015() name=button015 type=radio />I kyrkan.<br/> <input onclick=correct015() name=button015 type=radio />På arbetet.<br/> <input onclick=incorrect015() name=button015 type=radio />På banken.<br />"];
 
+var question016 = ["Q16: Translate: The lamp stands on the bureau."];
+var choises016 = ["<input onclick=incorrect016() name=button016 type=radio />Lampan hänger i taket.<br/> <input onclick=correct016() name=button016 type=radio />Lampan står på byrån<br/> <input onclick=incorrect016() name=button016 type=radio />Lampan står på golvet.<br />"];
 
-       
-document.getElementById("after_submit1").style.visibility = "visible";
+var question017 = ["Q17: Translate: Cry, Crying, Cried."];
+var choises017 = ["<input onclick=correct017() name=button017 type=radio />Gråta, Gråter, Grät.<br/> <input onclick=incorrect017() name=button017 type=radio />Blåsa, Blåser, Blåste<br/> <input onclick=incorrect017() name=button017 type=radio />Ramla, Ramlar, Ramlade.<br />"];
 
-document.getElementById("message1").innerHTML = messages[range];
-document.getElementById("number_correct1").innerHTML = "You got " + correct + " correct."; 
-document.getElementById("picture1").src = pictures[range];   
+var question018 = ["Q18: En or Ett - An Apple"];
+var choises018 = ["<input onclick=incorrect018() name=button018 type=radio />En äpple<br/> <input onclick=correct018() name=button018 type=radio />Ett äpple<br/> <input onclick=incorrect018() name=button018 type=radio />Äpplena<br />"];
 
+var question019 = ["Q19: Translate: The painting"];
+var choises019 = ["<input onclick=incorrect019() name=button019 type=radio />En tavla<br/> <input onclick=correct019() name=button019 type=radio />Tavlan<br/> <input onclick=incorrect019() name=button019 type=radio />Tavlor<br />"];
+
+var question020 = ["Q20: Translate: The eyes"];
+var choises020 = ["<input onclick=incorrect020() name=button020 type=radio />Ögat<br/> <input onclick=incorrect020() name=button020 type=radio />Öga<br/> <input onclick=correct020() name=button020 type=radio />Ögonen<br />"];
+
+var l;
+var m;
+var o;
+var p;
+var q;
+var r;
+var s;
+var t;
+var u;
+var v;
+var n;
+///////////
+window.addEventListener('load', function(){
+  l = 0;
+message002.innerHTML = question011;
+options002.innerHTML = choises011;
+click002.innerHTML = "<button onclick= set012()>Submit</button";                                  
+});
+
+function correct011() {
+  l = 1;
+}
+
+function incorrect011(){
+  l = 0;
+
+}
+//////
+function set012(){
+  m = 0;
+  message002.innerHTML = question012;
+  options002.innerHTML = choises012;
+  click002.innerHTML = "<button onclick=set013()>Next</button>";
+}
+
+function correct012(){
+  m = 1;
+}
+
+function incorrect012(){
+  m = 0;
+}
+//////
+function set013(){
+  o = 0;
+  message002.innerHTML = question013;
+  options002.innerHTML = choises013;
+  click002.innerHTML = "<button onclick=set014()>Next</button>";
+}
+
+function correct013(){
+  o = 1;
+}
+
+function incorrect013(){
+  o = 0;
+}
+
+//////
+function set014(){
+  p = 0;
+  message002.innerHTML = question014;
+  options002.innerHTML = choises014;
+  click002.innerHTML = "<button onclick=set015()>Next</button>";
+}
+
+function correct014(){
+  p = 1;
+}
+
+function incorrect014(){
+  p = 0;
+}
+//////
+function set015(){
+  q = 0;
+  message002.innerHTML = question015;
+  options002.innerHTML = choises015;
+  click002.innerHTML = "<button onclick=set016()>Next</button>";
+}
+
+function correct015(){
+  q = 1;
+}
+
+function incorrect015(){
+  q = 0;
+}
+
+//////
+function set016(){
+  r = 0;
+  message002.innerHTML = question016;
+  options002.innerHTML = choises016;
+  click002.innerHTML = "<button onclick=set017()>Next</button>";
+}
+
+function correct016(){
+  r = 1;
+}
+
+function incorrect016(){
+  r = 0;
+}
+//////
+
+function set017(){
+  s = 0;
+  message002.innerHTML = question017;
+  options002.innerHTML = choises017;
+  click002.innerHTML = "<button onclick=set018()>Next</button>";
+}
+
+function correct017(){
+  s = 1;
+}
+
+function incorrect017(){
+  s = 0;
+}
+
+//////
+function set018(){
+  t = 0;
+  message002.innerHTML = question018;
+  options002.innerHTML = choises018;
+  click002.innerHTML = "<button onclick=set019()>Next</button>";
+}
+
+function correct018(){
+  t = 1;
+}
+
+function incorrect018(){
+  t = 0;
+}
+
+//////
+
+function set019(){
+  u = 0;
+  message002.innerHTML = question019;
+  options002.innerHTML = choises019;
+  click002.innerHTML = "<button onclick=set020()>Next</button>";
+}
+
+function correct019(){
+  u = 1;
+}
+
+function incorrect019(){
+  u = 0;
+}
+
+//////
+
+function set020(){
+  v = 0;
+  message002.innerHTML = question020;
+  options002.innerHTML = choises020;
+  click002.innerHTML = "<button onclick=result0003()>Score</button>";
 }
 
 
-////////////////////////////////////////////////////////
+function correct020(){
+  v = 1;
+}
+
+function incorrect020(){
+  v = 0;
+}
+
+//////
+function result0003(){
+  n = l + m + o + p + q + r + s + t + u + v;
+  message002.innerHTML = "End of Quiz";
+  options002.innerHTML = "";
+  click002.innerHTML = "";
+  comment003.innerHTML = "Congratulations! Your score is: " + n;
+  comment004.innerHTML = "If you scored lower than 2, please keep practising";  
+}
+//////////////////////////////
