@@ -208,8 +208,7 @@ function result001(){
   options001.innerHTML = "";
   click001.innerHTML = "";
   comment001.innerHTML = "Congratulations! Your score is: " + c;
-  comment002.innerHTML = "If you scored lower than 2, please keep practising";
-  
+  comment002.innerHTML = "If your score is lower than 5, keep practising.";
 }
 
 ///////////////////////////////////START 2ND QUIZ/////////////////
@@ -405,7 +404,7 @@ function set020(){
   v = 0;
   message002.innerHTML = question020;
   options002.innerHTML = choises020;
-  click002.innerHTML = "<button onclick=result0003()>Score</button>";
+  click002.innerHTML = "<button onclick=result0002()>Score</button>";
 }
 
 
@@ -418,12 +417,12 @@ function incorrect020(){
 }
 
 //////
-function result0003(){
+function result0002(){
   n = l + m + o + p + q + r + s + t + u + v;
   message002.innerHTML = "End of Quiz";
   options002.innerHTML = "";
   click002.innerHTML = "";
-  comment003.innerHTML = "Congratulations! Your score is: " + n;
-  comment004.innerHTML = "If you scored lower than 2, please keep practising";  
+  comment003.innerHTML = "Congratulations! Your score is: " + n; 
+  comment004.innerHTML = "If your score is lower than 5, keep practising.";
 }
 //////////////////////////////
