@@ -264,5 +264,11 @@ h3 {
 .frame label {
   display: block;
 }
+
+.frame .display-area {
+  padding: 0 .5em .5em;
+}
+
+
 /* End setup quiz*/
 
