@@ -172,6 +172,12 @@ var quizzes = [
   },
 ];
 
+  //////////////////Start 3rd Quiz ///////////  
+    name: "Swedish Quiz  - Lessons 17 - 24",
+
+
+
+//////////////////////////////
 // When the document is ready
 window.addEventListener('DOMContentLoaded', function() {
   var $container = document.getElementById('container');
@@ -200,8 +206,12 @@ function initQuiz(quiz, $container) {
     clearDisplayArea();
     var question = quiz.questions[num];
     
+    // Display the image if there is one
+    if (question.image) {
+      $dom.display.innerHTML = '<img src=' + question.image + ' class="question-img"/>';
+    }
     // Display the question
-    $dom.display.innerHTML =
+    $dom.display.innerHTML +=
         '<p>Q' + (num+1) + ': ' + question.text + '</p>'
       + question.choices.map(function(choice, i) {
          return '<label>'
@@ -211,7 +221,6 @@ function initQuiz(quiz, $container) {
        }).join('')
       + '<br>';
     
-
     // Create Submit button
     $submit = document.createElement('button');
     $submit.addEventListener('click', onAnswerSubmit);
@@ -256,11 +265,11 @@ function initQuiz(quiz, $container) {
     $title.innerHTML = quiz.name;
     // Create display area
     $display = document.createElement('div');
+    $display.className = 'display-area';
     // Insert them into each other
     $frame.appendChild($title);
     $frame.appendChild($display);
     $container.appendChild($frame);
-
 
     return {
       frame: $frame,
