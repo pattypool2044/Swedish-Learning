@@ -21,7 +21,7 @@ img{
 b{
   color: red;
 }
-header{
+header, footer{
   text-transform: uppercase;
   background-color: #AF69EE;
   padding: 15px;
@@ -220,37 +220,6 @@ audio{
 
 /* End zoom and audio*/
 
-/* Start Quiz*/
-
-#center001{
-    text-align: left;
-    color: black;
-    font-style: 15px;
-    background-color: #FFFF99;
-}
-
-h3{
-    background: #FAFAFA;
-}
-
-/* End Quiz*/
-
-
-/* Start Quiz 2*/
-
-#center002 {
-    text-align: left;
-    color: black;
-    font-style: 15px;
-    background-color: #00FFFF;
-}
-
-h3{
-    background: #FAFAFA;
-}
-
-
-/* End Quiz 2*/
 
 /* Start change image on its own*/
 p img{
@@ -279,3 +248,21 @@ a:hover {
   font-size: 20px;
 }
 /* End next and previous buttons*/
+
+/* New setup quiz*/
+.frame {
+    display: block;
+    background: #00FFFF;
+    text-align: left;
+    font-size: 20px;
+}
+
+h3 {
+    background: #FAFAFA;
+}
+
+.frame label {
+  display: block;
+}
+/* End setup quiz*/
+
