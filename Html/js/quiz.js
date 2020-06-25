@@ -2,11 +2,11 @@ var quizzes = [
   {
     name: "Swedish Quiz  - Lessons 1 - 8",
     questions: [
-      {   
+       {   
         text: "How do you say Yellow in Swedish?",
         choices: [
           { text: "Röd", correct: false },
-          { text: "Gul", correct: true },
+          { text: "Gul" , correct: true },
           { text: "Vit", correct: false },
         ],
       },
@@ -210,6 +210,7 @@ function initQuiz(quiz, $container) {
     if (question.image) {
       $dom.display.innerHTML = '<img src=' + question.image + ' class="question-img"/>';
     }
+   
     // Display the question
     $dom.display.innerHTML +=
         '<p>Q' + (num+1) + ': ' + question.text + '</p>'
@@ -217,7 +218,7 @@ function initQuiz(quiz, $container) {
          return '<label>'
               +   '<input type="radio" name="' + quiz.name + '" value="' + i + '"/>'
               +   choice.text
-              + '</label>';
+              + '</label>';                                      
        }).join('')
       + '<br>';
     
@@ -248,7 +249,7 @@ function initQuiz(quiz, $container) {
     clearDisplayArea();
     $dom.display.innerHTML = '<p>End of Quiz</p>'
                     + '<p>Congratulations! Your score is: ' + score + '</p>'
-                    + '<p>If you scored lower than 5, please keep practising</p>';
+                    + '<p>If you scored lower than 5, please keep practising </p>';
   }
   
   function clearDisplayArea() {
