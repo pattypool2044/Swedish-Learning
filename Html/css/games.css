@@ -177,6 +177,9 @@ html {
 
 .card.matched .card-value {
   animation: dance 1s linear infinite 500ms;
+  animation: /* Chrome, Firefox */
+-webkit-animation: /* Safari, Opera, Edge */
+-moz-animation: /* Gecko (FireFox) */
 }
 
 .overlay-text {
@@ -201,6 +204,9 @@ html {
   display: flex;
   flex-direction: column;
   animation: overlay-grow 500ms forwards;
+  animation: /* Chrome, Firefox */
+-webkit-animation: /* Safari, Opera, Edge */
+-moz-animation: /* Gecko (FireFox) */
 }
 
 @keyframes overlay-grow {
@@ -224,6 +230,9 @@ html {
   70% {
     transform: rotate(10deg);
   }
+  animation: /* Chrome, Firefox */
+-webkit-animation: /* Safari, Opera, Edge */
+-moz-animation: /* Gecko (FireFox) */
 }
 
 .card-back {
