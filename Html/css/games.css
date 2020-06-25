@@ -234,18 +234,19 @@ html {
 .card-back {
   background-color: black;
   border-color: #FF6D00;
+    animation: /* Chrome, Firefox */
+-webkit-animation: /* Safari 11+, Opera, Edge */
+-moz-animation: /* Gecko (FireFox) */
+-webkit-animation-direction: /* Safari 11+, Opera, Edge */
+-webkit-backface-visibility: /* Safari 11+, Opera, Edge */
+-moz-animation: /* Gecko (FireFox) */
 }
 
 .card-front{
   background-color: purple;
   border.color: black;
   transform: rotateY(180deg);
-  animation: /* Chrome, Firefox */
--webkit-animation: /* Safari 11+, Opera, Edge */
--moz-animation: /* Gecko (FireFox) */
--webkit-animation-direction: /* Safari 11+, Opera, Edge */
--webkit-backface-visibility: /* Safari 11+, Opera, Edge */
--moz-animation: /* Gecko (FireFox) */
+
 }
 
 .card-back:hover .checkered{
