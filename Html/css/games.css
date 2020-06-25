@@ -100,7 +100,6 @@ a:focus: {
 
 html {
   min-height: 100vh;
-  cursor: url("Cursors/pointer.cur"), auto;
 }
 
 
@@ -148,15 +147,12 @@ html {
   width: 145px;
 }
 
-.card:hover {
-  cursor: url("Cursors/pointer.cur"), auto;
-}
 
 .card-face {
   position: absolute;
   width: 100%;
   height: 100%;
-  display: flex;
+
   justify-content: center;
   align-items: center;
   overflow: hidden;
