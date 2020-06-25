@@ -32,7 +32,7 @@ class AudioController {
     }
 }
 
-class MixOrMatch {
+class Swedish_Memory {
     constructor(totalTime, cards) {
         this.cardsArray = cards;
         this.totalTime = totalTime;
@@ -139,7 +139,7 @@ class MixOrMatch {
 function ready() {
     let overlays = Array.from(document.getElementsByClassName('overlay-text'));
     let cards = Array.from(document.getElementsByClassName('card'));
-    let game = new MixOrMatch(100, cards);
+    let game = new Swedish_Memory(100, cards);
 
     overlays.forEach(overlay => {
         overlay.addEventListener('click', () => {
