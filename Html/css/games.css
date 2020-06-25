@@ -1,0 +1,276 @@
+body{
+  background: #EEDAF0;
+  margin: 6PX;
+}
+
+
+img{
+  border: 2px solid #000000;
+  height: 75px;
+  width: 75px;
+}
+
+
+.center {
+  display: block;
+ margin-left: auto;
+  margin-right: auto;
+ width: 50%;
+} 
+
+b{
+  color: red;
+}
+header, footer{
+  text-transform: uppercase;
+  background-color: #AF69EE;
+  padding: 15px;
+  background: #9370DB;
+  background: -moz-linear-gradient(top,#9370DB);
+  background: -webkit-linear-gradient(#9370DB 0%, #CEBEEF 100%);
+  background: -o-linear-gradient(#9370DB 0%, #CEBEEF 100%);
+  background: linear gradient(#9370DB 0%, #CEBEEF 100%);
+  background: -ms-linear-gradient(top,  #9370DB 0%,#CEBEEF 100%); /* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE+ */
+}
+
+h1{
+  text-align:center;
+  font-size: 25px;
+  background:#F5E1FD;
+
+}
+
+h2{
+  font-size: 35px;
+  margin-left: 3px;
+  background:#F5E1FD;
+}
+
+p{
+color:black;
+font-size: 20px;
+margin-left: 3px;
+}
+/* Start Navigation Horizontal*/
+
+nav{
+   text-transform: capitalize;
+   font-family: cursive;
+   text-align: center;
+}
+  
+nav a{
+  background-color: rgba(238,130,240,.3);
+  color: #000000;
+  display: inline-block;
+  margin-right:4%;
+  text-decoration: none;
+  height:15px;
+  border-radius: 15%;
+  padding:10px;
+  padding-bottom: 25px;
+  font-size: 20px;
+  text-align: center;
+}
+
+ .active {
+  background-color: #FFFFFF;
+   border: 3px solid #000000;
+}
+
+a:hover {
+   color: #00B2FF;
+   background: #CD5C5C;
+}
+
+a:focus: {
+  background: #FFE5B4;
+  color: #666666;
+}
+
+/* End Navigation Horizontal*/
+
+
+
+/* Start Memory*/
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+  cursor: url("Cursors/pointer.cur"), auto;
+}
+
+
+
+.page-title {
+  color: #FF6D00;
+  font-family: serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 6em;
+}
+
+.Swedish_Memory {
+  text-align: center;
+  color: Blue;
+  font-family: cursive;
+  font-size: 35px;
+  padding: none;
+}
+
+.game-info-container {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-info {
+  font-family: serif;
+  color: black;
+  font-size: 2em;
+}
+
+.game-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  margin: 50px;
+  justify-content: center;
+  perspective: 500px;
+}
+
+.card {
+  position: relative;
+  height: 175px;
+  width: 145px;
+}
+
+.card:hover {
+  cursor: url("Cursors/pointer.cur"), auto;
+}
+
+.card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  border-width: 1px;
+  border-style: solid;
+  transition: transform 500ms ease-in-out;
+}
+
+.card.visible .card-back {
+  transform: rotateY(-180deg);
+}
+
+.card.visible .card-front {
+  transform: rotateY(0)
+}
+
+.card.matched .card-value {
+  animation: dance 1s linear infinite 500ms;
+}
+
+.overlay-text {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  color: Green;
+  font-family: serif;
+}
+
+.overlay-text-small {
+  font-size: .3em;
+}
+
+.overlay-text.visible {
+  display: flex;
+  flex-direction: column;
+  animation: overlay-grow 500ms forwards;
+}
+
+@keyframes overlay-grow {
+  from {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 0;
+  }
+  to {
+    background-color: rgba(0, 0, 0, .8);
+    font-size: 10em;
+  }
+}
+
+@keyframes dance {
+  0%, 100%  {
+    transform: rotate(0);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  70% {
+    transform: rotate(10deg);
+  }
+}
+
+.card-back {
+  background-color: black;
+  border-color: #FF6D00;
+}
+
+.card-front{
+  background-color: purple;
+  border.color: black;
+  transform: rotateY(180deg);
+}
+
+.card-back:hover .checkered{
+  width: 99%;
+  height: 99%;
+}
+
+.card-value {
+  transition: transform 100ms ease-in-out;
+  transform: scale(.9);
+}
+
+.card-front:hover .card-value {
+  transform: scale(1);
+}
+
+img{
+  height: 175px;
+  width: 145px; 
+}
+
+.checkered{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 600px) {
+  .game-container {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  .game-info-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* End Memory*/
