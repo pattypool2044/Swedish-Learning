@@ -246,6 +246,7 @@ html {
 }
 
 .card-back:hover .checkered{
+  position: absolute;
   width: 99%;
   height: 99%;
 }
