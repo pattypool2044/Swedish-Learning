@@ -243,10 +243,12 @@ html {
   animation: /* Chrome, Firefox */
 -webkit-animation: /* Safari 11+, Opera, Edge */
 -moz-animation: /* Gecko (FireFox) */
+-webkit-animation-direction: /* Safari 11+, Opera, Edge */
+-webkit-backface-visibility: /* Safari 11+, Opera, Edge */
+-moz-animation: /* Gecko (FireFox) */
 }
 
 .card-back:hover .checkered{
-  position: absolute;
   width: 99%;
   height: 99%;
 }
