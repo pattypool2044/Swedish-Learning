@@ -318,6 +318,7 @@ html {
 }
 
 .card-back {
+  position: absolute;
   background-color: black;
   border-color: #FF6D00;
 }
@@ -339,7 +340,7 @@ html {
 }
 
 .card-front:hover .card-value {
-  transform: scale(0.9);
+  transform: scale(1);
 }
 
 img{
