@@ -93,6 +93,101 @@ a:focus: {
 
 
 
+body{
+  background: #EEDAF0;
+  margin: 6PX;
+}
+
+
+img{
+  border: 2px solid #000000;
+  height: 75px;
+  width: 75px;
+}
+
+
+.center {
+  display: block;
+ margin-left: auto;
+  margin-right: auto;
+ width: 50%;
+} 
+
+b{
+  color: red;
+}
+header, footer{
+  text-transform: uppercase;
+  background-color: #AF69EE;
+  padding: 15px;
+  background: #9370DB;
+  background: -moz-linear-gradient(top,#9370DB);
+  background: -webkit-linear-gradient(#9370DB 0%, #CEBEEF 100%);
+  background: -o-linear-gradient(#9370DB 0%, #CEBEEF 100%);
+  background: linear gradient(#9370DB 0%, #CEBEEF 100%);
+  background: -ms-linear-gradient(top,  #9370DB 0%,#CEBEEF 100%); /* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE+ */
+}
+
+h1{
+  text-align:center;
+  font-size: 25px;
+  background:#F5E1FD;
+
+}
+
+h2{
+  font-size: 35px;
+  margin-left: 3px;
+  background:#F5E1FD;
+}
+
+p{
+color:black;
+font-size: 20px;
+margin-left: 3px;
+}
+/* Start Navigation Horizontal*/
+
+nav{
+   text-transform: capitalize;
+   font-family: cursive;
+   text-align: center;
+}
+  
+nav a{
+  background-color: rgba(238,130,240,.3);
+  color: #000000;
+  display: inline-block;
+  margin-right:4%;
+  text-decoration: none;
+  height:15px;
+  border-radius: 15%;
+  padding:10px;
+  padding-bottom: 25px;
+  font-size: 20px;
+  text-align: center;
+}
+
+ .active {
+  background-color: #FFFFFF;
+   border: 3px solid #000000;
+}
+
+a:hover {
+   color: #00B2FF;
+   background: #CD5C5C;
+}
+
+a:focus: {
+  background: #FFE5B4;
+  color: #666666;
+}
+
+/* End Navigation Horizontal*/
+
+
+
 /* Start Memory*/
 * {
   box-sizing: border-box;
@@ -261,6 +356,16 @@ html {
 -webkit-animation-direction: /* Safari 11+, Opera, Edge */
 -webkit-backface-visibility: /* Safari 11+, Opera, Edge */
 -moz-animation: /* Gecko (FireFox) */
+-webkit-animation-trigger
+-webkit-animation-delay
+-webkit-animation-direction
+-webkit-animation-duration
+-webkit-animation-fill-mode
+-webkit-animation-iteration-count
+-webkit-animation-name
+-webkit-animation-play-state
+-webkit-animation-timing-function
+-webkit-backface-visibility
 }
 
 .card-value {
