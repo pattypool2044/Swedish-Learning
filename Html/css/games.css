@@ -190,6 +190,13 @@ a:focus: {
 
 /* Start Memory*/
 
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+}
 
 .page-title {
   color: #FF6D00;
@@ -311,7 +318,7 @@ a:focus: {
 }
 
 .card-back {
-  position: absolute;
+ 
   background-color: black;
   border-color: #FF6D00;
 }
