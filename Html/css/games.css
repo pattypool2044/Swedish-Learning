@@ -190,13 +190,6 @@ a:focus: {
 
 /* Start Memory*/
 
-* {
-  box-sizing: border-box;
-}
-
-html {
-  min-height: 100vh;
-}
 
 .page-title {
   color: #FF6D00;
