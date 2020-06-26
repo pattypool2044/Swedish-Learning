@@ -365,4 +365,21 @@ img{
   }
 }
 
+@media {
+    -webkit-animation: /* Safari 11+, Opera, Edge */
+-moz-animation: /* Gecko (FireFox) */
+-webkit-animation-direction: /* Safari 11+, Opera, Edge */
+-webkit-backface-visibility: /* Safari 11+, Opera, Edge */
+-moz-animation: /* Gecko (FireFox) */
+-webkit-animation-trigger
+-webkit-animation-delay
+-webkit-animation-direction
+-webkit-animation-duration
+-webkit-animation-fill-mode
+-webkit-animation-iteration-count
+-webkit-animation-name
+-webkit-animation-play-state
+-webkit-animation-timing-function
+-webkit-backface-visibility
+}
 /* End Memory*/
