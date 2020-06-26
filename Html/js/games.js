@@ -46,7 +46,7 @@ class Swedish_Memory {
         this.totalClicks = 0;
         this.timeRemaining = this.totalTime;
         this.matchedCards = [];
-        this.busy = true;
+        this.busy = false;
         setTimeout(() => {
             this.audioController.startMusic();
             this.shuffleCards();
@@ -159,3 +159,5 @@ if(document.readyState === 'loading') {
 } else {
     ready();
 }
+
+
