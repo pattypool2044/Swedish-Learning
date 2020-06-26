@@ -254,8 +254,8 @@ html {
 }
 
 .card-back:hover .checkered{
-  width: 99%;
-  height: 99%;
+ height: 175px;
+  width: 145px; 
   -webkit-animation: /* Safari 11+, Opera, Edge */
 -moz-animation: /* Gecko (FireFox) */
 -webkit-animation-direction: /* Safari 11+, Opera, Edge */
@@ -283,8 +283,8 @@ html {
 }
 
 img{
-  height: 75px;
-  width: 45px; 
+  height: 175px;
+  width: 145px; 
 }
 
 .checkered{
