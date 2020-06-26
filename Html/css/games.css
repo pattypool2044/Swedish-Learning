@@ -264,7 +264,7 @@ html {
 }
 
 .card-value {
-  transition: transform 1000ms ease-in-out;
+  transition: transform 100ms ease-in-out;
   transform: scale(.9);
   -webkit-animation: /* Safari 11+, Opera, Edge */
 -moz-animation: /* Gecko (FireFox) */
@@ -283,8 +283,8 @@ html {
 }
 
 img{
-  height: 175px;
-  width: 145px; 
+  height: 75px;
+  width: 45px; 
 }
 
 .checkered{
