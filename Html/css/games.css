@@ -259,7 +259,6 @@ html {
 }
 .card.visible .card-back {
   transform: rotateY(-180deg);
-  position: visible;
 }
 
 
