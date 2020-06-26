@@ -190,7 +190,13 @@ a:focus: {
 
 /* Start Memory*/
 
+* {
+  box-sizing: border-box;
+}
 
+html {
+  min-height: 100vh;
+}
 
 .page-title {
   color: #FF6D00;
@@ -249,42 +255,12 @@ a:focus: {
   border-width: 1px;
   border-style: solid;
   transition: transform 500ms ease-in-out;
-  -webkit-animation: /* Safari 11+, Opera, Edge */
--moz-animation: /* Gecko (FireFox) */
--webkit-animation-direction: /* Safari 11+, Opera, Edge */
--webkit-backface-visibility: /* Safari 11+, Opera, Edge */
--moz-animation: /* Gecko (FireFox) */
--webkit-animation-trigger
--webkit-animation-delay
--webkit-animation-direction
--webkit-animation-duration
--webkit-animation-fill-mode
--webkit-animation-iteration-count
--webkit-animation-name
--webkit-animation-play-state
--webkit-animation-timing-function
--webkit-backface-visibility
-}
 
+}
 .card.visible .card-back {
-  -webkit-animation: /* Safari 11+, Opera, Edge */
--moz-animation: /* Gecko (FireFox) */
--webkit-animation-direction: /* Safari 11+, Opera, Edge */
--webkit-backface-visibility: /* Safari 11+, Opera, Edge */
--moz-animation: /* Gecko (FireFox) */
--webkit-animation-trigger
--webkit-animation-delay
--webkit-animation-direction
--webkit-animation-duration
--webkit-animation-fill-mode
--webkit-animation-iteration-count
--webkit-animation-name
--webkit-animation-play-state
--webkit-animation-timing-function
--webkit-backface-visibility
-
-
+  transform: rotateY(-180deg);
 }
+
 
 .card.visible .card-front {
   transform: rotateY(0)
@@ -339,114 +315,42 @@ a:focus: {
   70% {
     transform: rotate(10deg);
   }
-
 }
 
 .card-back {
   background-color: black;
   border-color: #FF6D00;
-    animation: /* Chrome, Firefox */
--webkit-animation: /* Safari 11+, Opera, Edge */
--moz-animation: /* Gecko (FireFox) */
--webkit-animation-direction: /* Safari 11+, Opera, Edge */
--webkit-backface-visibility: /* Safari 11+, Opera, Edge */
--moz-animation: /* Gecko (FireFox) */
 }
 
 .card-front{
   background-color: purple;
   border.color: black;
   transform: rotateY(180deg);
--webkit-animation: /* Safari 11+, Opera, Edge */
--moz-animation: /* Gecko (FireFox) */
--webkit-animation-direction: /* Safari 11+, Opera, Edge */
--webkit-backface-visibility: /* Safari 11+, Opera, Edge */
--moz-animation: /* Gecko (FireFox) */
 }
 
 .card-back:hover .checkered{
  height: 175px;
   width: 145px; 
-  -webkit-animation: /* Safari 11+, Opera, Edge */
--moz-animation: /* Gecko (FireFox) */
--webkit-animation-direction: /* Safari 11+, Opera, Edge */
--webkit-backface-visibility: /* Safari 11+, Opera, Edge */
--moz-animation: /* Gecko (FireFox) */
--webkit-animation-trigger
--webkit-animation-delay
--webkit-animation-direction
--webkit-animation-duration
--webkit-animation-fill-mode
--webkit-animation-iteration-count
--webkit-animation-name
--webkit-animation-play-state
--webkit-animation-timing-function
--webkit-backface-visibility
 }
 
 .card-value {
   transition: transform 100ms ease-in-out;
   transform: scale(.9);
-  -webkit-animation: /* Safari 11+, Opera, Edge */
--moz-animation: /* Gecko (FireFox) */
--webkit-animation-direction: /* Safari 11+, Opera, Edge */
--webkit-backface-visibility: /* Safari 11+, Opera, Edge */
--moz-animation: /* Gecko (FireFox) */
--webkit-animation-trigger
--webkit-animation-delay
--webkit-animation-direction
--webkit-animation-duration
--webkit-animation-fill-mode
--webkit-animation-iteration-count
--webkit-animation-name
--webkit-animation-play-state
--webkit-animation-timing-function
--webkit-backface-visibility
 }
 
 .card-front:hover .card-value {
   transform: scale(1);
-  -webkit-animation: /* Safari 11+, Opera, Edge */
--moz-animation: /* Gecko (FireFox) */
--webkit-animation-direction: /* Safari 11+, Opera, Edge */
--webkit-backface-visibility: /* Safari 11+, Opera, Edge */
--moz-animation: /* Gecko (FireFox) */
--webkit-animation-trigger
--webkit-animation-delay
--webkit-animation-direction
--webkit-animation-duration
--webkit-animation-fill-mode
--webkit-animation-iteration-count
--webkit-animation-name
--webkit-animation-play-state
--webkit-animation-timing-function
--webkit-backface-visibility
 }
 
 img{
-  height: 170px;
-  width: 140px; 
+  height: 175px;
+  width: 145px; 
 }
 
 .checkered{
   position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-animation: /* Safari 11+, Opera, Edge */
--moz-animation: /* Gecko (FireFox) */
--webkit-animation-direction: /* Safari 11+, Opera, Edge */
--webkit-backface-visibility: /* Safari 11+, Opera, Edge */
--moz-animation: /* Gecko (FireFox) */
--webkit-animation-trigger
--webkit-animation-delay
--webkit-animation-direction
--webkit-animation-duration
--webkit-animation-fill-mode
--webkit-animation-iteration-count
--webkit-animation-name
--webkit-animation-play-state
--webkit-animation-timing-function
--webkit-backface-visibility
+
+
 }
 
 @media (max-width: 600px) {
@@ -458,22 +362,6 @@ img{
     flex-direction: column;
     align-items: center;
   }
-  -webkit-animation: /* Safari 11+, Opera, Edge */
--moz-animation: /* Gecko (FireFox) */
--webkit-animation-direction: /* Safari 11+, Opera, Edge */
--webkit-backface-visibility: /* Safari 11+, Opera, Edge */
--moz-animation: /* Gecko (FireFox) */
--webkit-animation-trigger
--webkit-animation-delay
--webkit-animation-direction
--webkit-animation-duration
--webkit-animation-fill-mode
--webkit-animation-iteration-count
--webkit-animation-name
--webkit-animation-play-state
--webkit-animation-timing-function
--webkit-backface-visibility
-
 }
 
 /* End Memory*/
