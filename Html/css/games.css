@@ -189,13 +189,6 @@ a:focus: {
 
 
 /* Start Memory*/
-* {
-  box-sizing: border-box;
-}
-
-html {
-  min-height: 100vh;
-}
 
 
 
@@ -431,8 +424,8 @@ html {
 }
 
 img{
-  height: 175px;
-  width: 145px; 
+  height: 170px;
+  width: 140px; 
 }
 
 .checkered{
