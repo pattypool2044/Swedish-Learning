@@ -334,12 +334,12 @@ html {
 }
 
 .card-value {
-  transition: transform 900ms ease-in-out;
-  transform: scale(.90);
+  transition: transform 100ms ease-in-out;
+  transform: scale(.9);
 }
 
 .card-front:hover .card-value {
-  transform: scale(1);
+  transform: scale(0.9);
 }
 
 img{
