@@ -235,8 +235,7 @@ html {
   perspective: 500px;
 }
 
-.card {
-    display: solid;
+.card { 
   position: relative;
   height: 175px;
   width: 145px;
@@ -260,6 +259,7 @@ html {
 }
 .card.visible .card-back {
   transform: rotateY(-180deg);
+  display:block;
 }
 
 
