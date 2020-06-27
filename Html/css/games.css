@@ -352,8 +352,6 @@ img{
   position: absolute;
   width: 100%;
   height: 100%;
-          -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
 }
 
 @media (max-width: 600px) {
@@ -367,21 +365,8 @@ img{
   }
 }
 
-@media {
-    -webkit-animation: /* Safari 11+, Opera, Edge */
--moz-animation: /* Gecko (FireFox) */
--webkit-animation-direction: /* Safari 11+, Opera, Edge */
--webkit-backface-visibility: /* Safari 11+, Opera, Edge */
--moz-animation: /* Gecko (FireFox) */
--webkit-animation-trigger
--webkit-animation-delay
--webkit-animation-direction
--webkit-animation-duration
--webkit-animation-fill-mode
--webkit-animation-iteration-count
--webkit-animation-name
--webkit-animation-play-state
--webkit-animation-timing-function
--webkit-backface-visibility
+div:checkered {
+          -webkit-backface-visibility: visible; /* Safari */
+  backface-visibility: visible;
 }
 /* End Memory*/
