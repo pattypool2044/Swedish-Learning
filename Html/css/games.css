@@ -348,10 +348,11 @@ img{
 }
 
 .checkered{
-  display:block;
   position: absolute;
   width: 100%;
   height: 100%;
+    -webkit-backface-visibility: visible; /* Safari */
+  backface-visibility: visible;
 
 }
 
