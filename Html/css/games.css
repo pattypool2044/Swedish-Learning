@@ -239,6 +239,8 @@ html {
   position: relative;
   height: 175px;
   width: 145px;
+        -webkit-backface-visibility: visible; /* Safari */
+  backface-visibility: visible;
 }
 
 
@@ -317,10 +319,6 @@ html {
   }
 }
 
-div{
-      -webkit-backface-visibility: visible; /* Safari */
-  backface-visibility: visible;
-}
 
 .card-back {
   background-color: black;
