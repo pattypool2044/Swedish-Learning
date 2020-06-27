@@ -341,7 +341,7 @@ html {
 
 .flip {
   transform: rotateY(180deg);
-  backface-visibility: hidden;
+  backface-visibility: visible;
 }
 
 .card-front:hover .card-value {
