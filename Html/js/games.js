@@ -3,8 +3,8 @@ class AudioController {
         this.bgMusic = new Audio('audio/silent.mp3');
         this.flipSound = new Audio('audio/whoosh.wav');
         this.matchSound = new Audio('audio/ding.wav');
-        this.victorySound = new Audio('audio/applause2.wav');
-        this.gameOverSound = new Audio('audio/cry.wav');
+        this.victorySound = new Audio('audio/cry.wav');
+        this.gameOverSound = new Audio('audio/applause2.wav');
         this.bgMusic.volume = 0.5;
         this.bgMusic.loop = true;
     }
