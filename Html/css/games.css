@@ -317,6 +317,11 @@ html {
   }
 }
 
+div{
+      -webkit-backface-visibility: visible; /* Safari */
+  backface-visibility: visible;
+}
+
 .card-back {
   background-color: black;
   border-color: #FF6D00;
@@ -351,8 +356,6 @@ img{
   position: absolute;
   width: 100%;
   height: 100%;
-    -webkit-backface-visibility: visible; /* Safari */
-  backface-visibility: visible;
 
 }
 
