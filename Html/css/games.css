@@ -259,7 +259,6 @@ html {
 }
 .card.visible .card-back {
   transform: rotateY(-180deg);
-  display:block;
 }
 
 
@@ -319,7 +318,7 @@ html {
 }
 
 .card-back {
- 
+ display:block;
   background-color: black;
   border-color: #FF6D00;
 }
