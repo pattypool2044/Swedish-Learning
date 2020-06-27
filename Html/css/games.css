@@ -339,6 +339,11 @@ html {
   transform: scale(.9);
 }
 
+.flip {
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
 .card-front:hover .card-value {
   transform: scale(1);
 }
@@ -365,8 +370,6 @@ img{
   }
 }
 
-div:card-back card-face {
-          -webkit-backface-visibility: visible; /* Safari */
-  backface-visibility: visible;
+
 }
 /* End Memory*/
