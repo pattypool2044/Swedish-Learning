@@ -365,7 +365,7 @@ img{
   }
 }
 
-div:checkered {
+div:card-back card-face {
           -webkit-backface-visibility: visible; /* Safari */
   backface-visibility: visible;
 }
