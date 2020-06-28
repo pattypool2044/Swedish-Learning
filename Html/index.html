@@ -10,16 +10,27 @@
   </head>
 
   <body>
-    <header>
+
+ <header>   
     <h1>Learning Swedish a different way</h1>
-    <nav>
-      <a href="index.html" class = "active">Home</a>
-      <a href="Quiz.html" >Quiz</a>
-      <a href="Games.html">Games</a>
-      <a href="test3.html">Test 3</a>
-    </nav>
+<nav>
+  <ul class="position">
+    <li><a href="index.html" class = "active">Home</a></li>
+     <li><a href="Quiz.html" >Quiz</a></li>
+    <li><a href="Games.html">Games</a></li>
+        <li><a href="#">Links</a>
+          <ul>
+        <li><a href="#">Lessons 1 - 13</a></li> 
+        <li><a href="#">Lessons 14 - ..</a></li> 
+        <li><a href="#">Quiz</a></li>
+        <li><a href="#">Games</a></li>  
+          </ul>
+        </li>   
+</nav>
+</header>
+<br>
     <a href="page2.html" class="next">Next &raquo; </a>
-  </header>
+  
 
     <!--start intro--> 
 <p><b>Introduction:</b>
@@ -32,7 +43,7 @@
 <p>The idea of this website is try to Create a more common daily Swedish and less technical Swedish, and for me hit 2 birds at once. Learning Swedish and practice my Coding. I am more a person that 
 needs the practical more than the theoretical. So bear with me in creating this site and home if all goes well many can enjoy it.</p>
 
-<p><b>Note:</b>There where you see Test, note that this is the start of my layout and will be filled eventually with Swedish lessons.</p>
+
 <!--End intro-->
 
 <p>Welcome and hope you will enjoy the lessons with me. / Välkommen och hoppas att du kommer att njuta av lektionerna med mig</p>
@@ -1305,11 +1316,15 @@ Jobba, Jobbar, Jobbade</td>
 <p>These are just some examples. As you see like any language some words change strongly in past tense. While most verbs end in <b>A</b>, you see by Laugh <b>Le</b> it does not end in <b>A</b>, this is one of the exceptions. It is like any other language, you just have to learn and get comfortable with.</p>
 <!--End Lesson 13 Verbs, Present and Past -->
 
-<footer>
-<h3> Click on the next <b>Button</b> to continue to the next page with more lessons. Hope you have fun so far.</h3>
 
-<a href="page2.html" class="next">Next &raquo;</a>
-<br>
+<h4> Click on the next <b>Button or page number</b> to continue to the next page with more lessons. Hope you have fun so far.</h4>
+<footer>
+<div class="pagination">
+  <a href="index.html">1</a>
+  <a href="page2.html">2</a>
+  <a href="page2.html" >next &raquo;</a>
+</div>
+<button id="myBtn"><a href="#top" >Go to Top</a></button>
 </footer>
 </body>
 </html>
