@@ -138,8 +138,8 @@ font-weight: bold;
 }
 
 a:hover {
-   color: #00B2FF;
-   background: #CD5C5C;
+   color: #000000;
+   background: blue;
    font-weight: bold; 
 }
 
@@ -155,131 +155,31 @@ font-size: 20px;
 margin-left: 3px;
 }
 
-
-
-/* Start Tables*/
-
-table,th,tr,td{
-  border-collapse: separate;
-  border-spacing: 2px 0px;
-  margin: 10px;
-  padding: 4px;
-  font-size: 20px;
-}
-
-th{
-  background-color: #FFFF99;
-  font-size: 20px;
-  border: 2px solid #000000;
-}
-
-td,tr{
-  background-color: #FFFFE6;
-  width: 50%;
-  }
-
- td {
-        width: 200px;
-        text-align: center;
-        border: 1px solid #000000;
-        padding-left: 5px;
-        padding-top: 5px;
-        padding-right: 5px;
-        padding-bottom: 10px;
-      }
-
-td:hover {
-  background: #87CEEB;
-  font-weight: bold; 
-}
-/* End Tables*/
-
-
-/* Start zoom and audio*/
-.zoom {
-  transition: transform .2s;
-  margin: 0 auto;
-  visibility: all;
-
-}
-
-.zoom:hover {
-  -ms-transform: scale(1.5); /* IE 9 -12*/
-  -webkit-transform: scale(1.5); /* Safari 11+*/
-  transform: scale(1.2); 
-  visibility: all;
-}
-
-img:hover {
-  -ms-transform: scale(1.5); /* IE 9 -12*/
-  -webkit-transform: scale(1.5); /* Safari 11+ */
-  transform: scale(1.6); 
-  visibility: all;
-}
-
-audio{
-  width: 100px !important;
-  display:inline-block;
-}
-
-/* End zoom and audio*/
-
-
-/* Start change image on its own*/
-p img{
-  width: 45%;
-  height: 350px;
-}
-/* End change image on its own*/
-
-/* Start next and previous buttons*/
-a:hover {
-  background-color: blue;
-  color: black;
-}
-
-.previous {
-  background-color: #FFFF33;
-  color: black;
-  float: inherit;
-  font-size: 20px;
-}
-
-.next {
-  background-color: #FFFF33;
-  color: black;
-  float: right;
-  font-size: 20px;
-}
-/* End next and previous buttons*/
-
-/* Start next and previous + page numbers*/
-.pagination {
-  text-align: center;
-}
-/* End next and previous + page numbers*/
-
-#myBtn{
-display: block;
-        bottom: 10px;
-        max-width: 80px;
-        width: 100%;
-        font-size: 15px;
-        border-color: rgba(85, 85, 85, 0.2);
-        background-color: yellow;
-        padding: .5px;
-        border-radius: 4px;
-/* New setup quiz*/
-
-
-
-#textbox{
-      height: 25px;
-      font-size: 16px;
-      border-radius: 5px;
-      border:none;
-      padding-left: 5px;
+/* Start Quiz*/
+.frame {
+    display: block;
+    background: #00FFFF;
+    text-align: left;
+    font-size: 20px;
 }
 
 
+.frame label {
+  display: block;
+  background: #00FFFF;
+      text-align: left;
+    font-size: 20px;
+}
 
+
+.frame .display-area {
+  padding: 0 .5em .5em;
+}
+
+h3{
+    font-size: 20px;
+  margin-left: 3px;
+  background:#F5E1FD;
+}
+
+/* End setup quiz*/
