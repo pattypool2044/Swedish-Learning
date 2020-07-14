@@ -376,6 +376,59 @@ img{
   }
 }
 
-
 }
 /* End Memory*/
+
+/* Start Line up Game Box*/
+h2 {
+  text-align: center;
+}
+
+div1 { background-color: #0000CC; 
+      color:#ffffff;
+      box-sizing:border-box right;
+
+      /*add here*/
+      width:45%;
+      /*display: inline-block;*/
+      display: inline-block;
+      height: 200px;
+      margin: 5px;
+      border: 10px solid #000000;
+      padding: 15px;
+      margin: 0 auto;
+      margin-top: 50px;
+      font-size: 20px;
+
+}
+div1{ 
+      color: #000000;
+      background: #EE82EE;
+      text-align: center;
+      width: 250px;
+      height: 200px;
+      border-radius: 3px;
+
+ }
+
+/* End Line up Game Box*/
+
+/* Start 24 Cards*/
+.game-container1 {
+  display: grid;
+  grid-template-columns: repeat(6 , auto);
+  grid-gap: 10px;
+  margin: 50px;
+  justify-content: center;
+  perspective: 500px;
+    transform-style: preserve-3d;
+  transition: transform 1s;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: transform 1s;
+  -o-transform-style: preserve-3d;
+  -o-transition: transform 1s;
+  -moz-transform-style: preserve-3d;
+  -moz-transition: transform 1s;
+}
+
+/* End 24 Cards*/
