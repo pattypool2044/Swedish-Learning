@@ -139,7 +139,7 @@ class Swedish_Memory {
 function ready() {
     let overlays = Array.from(document.getElementsByClassName('overlay-text'));
     let cards = Array.from(document.getElementsByClassName('card'));
-    let game = new Swedish_Memory(100, cards);
+    let game = new Swedish_Memory(110, cards);
 
     overlays.forEach(overlay => {
         overlay.addEventListener('click', () => {
