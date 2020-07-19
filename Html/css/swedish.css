@@ -283,3 +283,7 @@ display: block;
 footer,form,div {
   float: center;
 }
+
+ul { display: inline-block; }
+
+li { display: inline; }
