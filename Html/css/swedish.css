@@ -284,6 +284,10 @@ footer,form,div {
   float: center;
 }
 
-ul { display: inline-block; }
+ul { 
+  display: inline-block; 
+}
 
-li { display: inline; }
+li { 
+  display: inline; 
+}
