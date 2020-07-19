@@ -398,9 +398,12 @@ h2 {
       padding: 15px;
       margin: 0 auto;
       margin-top: 50px;
-      font-size: 100%;
+      font-size: 120%;
 }
 
+a{
+  color: black;
+}
 .box{ 
       color: #000000;
       background: #EE82EE;
