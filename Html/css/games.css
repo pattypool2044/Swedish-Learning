@@ -384,7 +384,7 @@ h2 {
   text-align: center;
 }
 
-div1 { background-color: #0000CC; 
+.box { background-color: #0000CC; 
       color:#ffffff;
       box-sizing:border-box right;
 
@@ -399,9 +399,9 @@ div1 { background-color: #0000CC;
       margin: 0 auto;
       margin-top: 50px;
       font-size: 100%;
-
 }
-div1{ 
+
+.box{ 
       color: #000000;
       background: #EE82EE;
       text-align: center;
