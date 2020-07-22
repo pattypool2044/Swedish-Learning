@@ -291,8 +291,3 @@ ul {
 li { 
   display: inline; 
 }
-
-li a:hover {
-  background-color: orange;
-  color: green;
-}
