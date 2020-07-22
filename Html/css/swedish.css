@@ -234,7 +234,7 @@ p img{
 
 /* Start next and previous buttons*/
 a:hover {
-  background-color: blue;
+  background-color: #ADD8E6;
   color: #000000;
 }
 
@@ -290,4 +290,9 @@ ul {
 
 li { 
   display: inline; 
+}
+
+li a:hover {
+  background-color: orange;
+  color: green;
 }
