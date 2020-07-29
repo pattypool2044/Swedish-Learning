@@ -1,15 +1,7 @@
 body{
-  background: #EEDAF0;
-  margin: 6PX;
+    margin: 6px;
+    background-color: #EEDAF0;
 }
-
-
-img{
-  border: 2px solid #000000;
-  height: 75px;
-  width: 75px;
-}
-
 
 .center {
   display: block;
@@ -21,10 +13,11 @@ img{
 b{
   color: red;
 }
+
 header, footer{
   text-transform: uppercase;
   background-color: #AF69EE;
-  padding: 25px;
+  padding: 15px;
   background: #9370DB;
   background: -moz-linear-gradient(top,#9370DB);
   background: -webkit-linear-gradient(#9370DB 0%, #CEBEEF 100%);
@@ -136,10 +129,9 @@ font-weight: bold;
    border: 3px solid #000000;
 }
 
-
 a:hover {
-   color: #00B2FF;
-   background: #CD5C5C;
+   color: #000000;
+   background: blue;
    font-weight: bold; 
 }
 
@@ -151,86 +143,10 @@ a:focus: {
 
 p{
 color:black;
-font-size: 20px;
+font-size: 25px;
 margin-left: 3px;
 }
 
-
-
-/* Start Tables*/
-
-table,th,tr,td{
-  border-collapse: separate;
-  border-spacing: 2px 0px;
-  margin: 10px;
-  padding: 4px;
-  font-size: 20px;
-}
-
-th{
-  background-color: #FFFF99;
-  font-size: 20px;
-  border: 2px solid #000000;
-}
-
-td,tr{
-  background-color: #FFFFE6;
-  width: 50%;
-  }
-
- td {
-        width: 200px;
-        text-align: center;
-        border: 1px solid #000000;
-        padding-left: 5px;
-        padding-top: 5px;
-        padding-right: 5px;
-        padding-bottom: 10px;
-      }
-
-td:hover {
-  background: #87CEEB;
-  font-weight: bold; 
-}
-/* End Tables*/
-
-
-/* Start zoom and audio*/
-.zoom {
-  transition: transform .2s;
-  margin: 0 auto;
-  visibility: all;
-
-}
-
-.zoom:hover {
-  -ms-transform: scale(1.5); /* IE 9 -12*/
-  -webkit-transform: scale(1.5); /* Safari 11+*/
-  transform: scale(1.2); 
-  visibility: all;
-}
-
-img:hover {
-  -ms-transform: scale(1.5); /* IE 9 -12*/
-  -webkit-transform: scale(1.5); /* Safari 11+ */
-  transform: scale(1.6); 
-  visibility: all;
-}
-
-audio{
-  width: 100px !important;
-  display:inline-block;
-}
-
-/* End zoom and audio*/
-
-
-/* Start change image on its own*/
-p img{
-  width: 45%;
-  height: 350px;
-}
-/* End change image on its own*/
 
 /* Start next and previous buttons*/
 a:hover {
@@ -260,35 +176,20 @@ a:hover {
 }
 /* End next and previous + page numbers*/
 
-#myBtn{
-display: block;
-        bottom: 10px;
-        max-width: 80px;
-        width: 100%;
-        font-size: 15px;
-        border-color: rgba(85, 85, 85, 0.2);
-        background-color: yellow;
-        padding: .5px;
-        border-radius: 4px;
-/* New setup quiz*/
-
-#textbox{
-      height: 25px;
-      font-size: 16px;
-      border-radius: 5px;
-      border:none;
-      padding-left: 5px;
+/* Start shortcut links*/
+.part {
+   background-color: #FFBE7BFF; 
+  border: 2px solid blue;
+  border-radius: 20px 20px 20px 20px;
+  color: darkblue;
+  margin-left: 3px;
+  margin-bottom: 6px;
+  float: none;
+  padding: 18px 18px;
+  width: 630px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 23px;
 }
-
-footer,form,div {
-  float: center;
-}
-
-ul { 
-  display: inline-block; 
-}
-
-li { 
-  display: inline; 
-}
-
+/*End shortcut links*/
