@@ -186,10 +186,29 @@ a:hover {
   margin-bottom: 6px;
   float: none;
   padding: 18px 18px;
-  width: 630px;
+  width: 410px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 23px;
+  font-size: 20px;
 }
 /*End shortcut links*/
+
+/*Start short to shortcut links*/
+.part1 {
+   background-color: #EED971FF; 
+  border: 2px solid blue;
+  border-radius: 20px 20px 20px 20px;
+  color: darkblue;
+  margin-left: 38px;
+  margin-bottom: 6px;
+  float: none;
+  padding: 18px 18px;
+  width: 810px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+}
+
+/*End short to shortcut links*/
