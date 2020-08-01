@@ -88,7 +88,7 @@ var quizzes = [
   //////////////////Start 2nd Quiz ///////////  
     name: "Swedish Quiz  - Lessons 9 - 16",
     questions: [
-      {
+         {
         text: "Translate: I am a woman",
         choices: [
           { text: "Hon är min granne", correct: false },
@@ -170,12 +170,107 @@ var quizzes = [
       },
     ],
   },
-];
+{
 
   //////////////////Start 3rd Quiz ///////////  
     name: "Swedish Quiz  - Lessons 17 - 24",
+    questions: [
+         {
+        text: "What is on the picture?",
+        image: "imgs/newspaper.jpg",
+        choices: [
+          { text: "Tidningen", correct: true },
+          { text: "En bil", correct: false },
+          { text: "Barn", correct: false },
+        ],
+      },
+      {
+        text: "What is on the picture?",
+        image: "imgs/profession.jpg",
+        choices: [
+          { text: "Stället", correct: false },
+          { text: "Ett yrke", correct: true },
+          { text: "Bord", correct: false },
+        ],
+      },
+      {
+        text: "What is on the picture?",
+        image: "imgs/feet.jpg",
+        choices: [
+          { text: "Fötterna", correct: true },
+          { text: "Huvud", correct: false },
+          { text: "En knä", correct: false },
+        ],
+      },
+      {
+        text: "What is on the picture?",
+        image: "imgs/7th.jpg",
+        choices: [
+          { text: "(åk. 5) I femman", correct: false },
+          { text: "(åk. 2) I tvåan", correct: false },
+          { text: "(åk. 7) I sjuan", correct: true },
+        ],
+      },
+      {
+        text: "What is on the picture?",
+        image: "imgs/family.png",
+        choices: [
+          { text: "Barnbarn, Kusin, Sondotter, Faster", correct: false },
+          { text: "Mormor, Morföräldrar, Morbrör, Morfar", correct: false },
+          { text: "Pappa, Mamma, Dotter, Son", correct: true },
+        ],
+      },
+      {
+        text: "What is on the picture?",
+        image: "imgs/bus_43.jpg",
+        choices: [
+          { text: "Fyrtiotrean", correct: true },
+          { text: "Hundra sjuan", correct: false },
+          { text: "Trettian", correct: false },
+        ],
+      },
+      {
+        text: "What is on the picture?",
+        image: "imgs/low.jpg",
+        choices: [
+          { text: "Läg, Lägre, Lägst", correct: true },
+          { text: "Ung, Yngre, Yngst", correct: false },
+          { text: "Hög, Högre, Högst", correct: false },
+        ],
+      },
+      {
+        text: "What is on the picture?",
+        image: "imgs/window.png",
+        choices: [
+          { text: "Ett fönster", correct: true },
+          { text: "En häst", correct:  false },
+          { text: "En kompis", correct: false },
+        ],
+      },
+      {
+        text: "What is on the picture with subject: Their ....?",
+        image: "imgs/kitchen.JPG",
+        choices: [
+          { text: "Deras soffa", correct: false },
+          { text: "Deras bil", correct: false },
+          { text: "Deras kök", correct: true },
+        ],
+      },
+      {
+        text: "What is on the picture?",
+        image: "imgs/bodypart_krop.jpg",
+        choices: [
+          { text: "Ett Hår", correct: false },
+          { text: "Kroppsdelar", correct: true },
+          { text: "Ett Ben", correct: false },
+        ],
+      },
+    ],
+  },
+];
 
-
+  //////////////////Start 4th Quiz ///////////  
+   
 
 //////////////////////////////
 // When the document is ready
@@ -210,15 +305,19 @@ function initQuiz(quiz, $container) {
     if (question.image) {
       $dom.display.innerHTML = '<img src=' + question.image + ' class="question-img"/>';
     }
-   
+  
     // Display the question
     $dom.display.innerHTML +=
         '<p>Q' + (num+1) + ': ' + question.text + '</p>'
       + question.choices.map(function(choice, i) {
          return '<label>'
               +   '<input type="radio" name="' + quiz.name + '" value="' + i + '"/>'
-              +   choice.text
-              + '</label>';                                      
+              +   choice.text             
+              + '</label>';            
+       return + '<form>'
+              +   '<input type = "text" id = "textbook"  name="'  + quiz.name + '" value="' + i + '"/>'
+              +   textbook.text  
+              + '</form>'                                      
        }).join('')
       + '<br>';
     
