@@ -211,4 +211,12 @@ a:hover {
   font-size: 30px;
 }
 
+
+
+.button_home{
+  float: inherit;
+  width: 84px;
+  background-color: orange;
+}
+
 /*End short to shortcut links*/
