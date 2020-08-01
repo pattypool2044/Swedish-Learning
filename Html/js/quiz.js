@@ -231,7 +231,7 @@ var quizzes = [
       },
       {
         text: "What is on the picture?",
-        image: "imgs/low.jpg",
+        image: "imgs/low.JPG",
         choices: [
           { text: "Läg, Lägre, Lägst", correct: true },
           { text: "Ung, Yngre, Yngst", correct: false },
