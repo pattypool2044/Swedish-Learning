@@ -222,7 +222,7 @@ var quizzes = [
       },
       {
         text: "What is on the picture?",
-        image: "imgs/bus_43.jpg",
+        image: "imgs/bus_43.JPG",
         choices: [
           { text: "Fyrtiotrean", correct: true },
           { text: "Hundra sjuan", correct: false },
