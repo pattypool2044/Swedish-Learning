@@ -179,7 +179,7 @@ a{
 #quiz {
     margin-left: 10px;
     background: #1184E8;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 30px 10px 30px;
     width: 49%;
     float: left;
     display: inline-block;
@@ -188,8 +188,9 @@ a{
 }
 
 input{
-   
-    width: 140px;
+   margin-right: 55px;
+   margin-bottom: 3px;
+    width: 130px;
 }
 
 #textbox{
