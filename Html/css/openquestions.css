@@ -139,7 +139,7 @@ h2 {
       width:45%;
       /*display: inline-block;*/
       display: inline-block;
-      height: 200px;
+      height: 230px;
       margin: 5px;
       border: 10px solid #000000;
       padding: 15px;
@@ -156,7 +156,7 @@ a{
       background: #EE82EE;
       text-align: center;
       width: 15%;
-      height: 200px;
+      height: 230px;
       border-radius: 3px;
  }
 
