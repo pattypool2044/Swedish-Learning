@@ -313,11 +313,8 @@ function initQuiz(quiz, $container) {
          return '<label>'
               +   '<input type="radio" name="' + quiz.name + '" value="' + i + '"/>'
               +   choice.text             
-              + '</label>';            
-       return + '<form>'
-              +   '<input type = "text" id = "textbook"  name="'  + quiz.name + '" value="' + i + '"/>'
-              +   textbook.text  
-              + '</form>'                                      
+              + '</label>';   
+                                                    
        }).join('')
       + '<br>';
     
@@ -348,7 +345,7 @@ function initQuiz(quiz, $container) {
     clearDisplayArea();
     $dom.display.innerHTML = '<p>End of Quiz</p>'
                     + '<p>Congratulations! Your score is: ' + score + '</p>'
-                    + '<p>If you scored lower than 5, please keep practising </p>';
+                    + '<p>If you scored lower than 5, please keep practicing </p>';
   }
   
   function clearDisplayArea() {
@@ -370,6 +367,7 @@ function initQuiz(quiz, $container) {
     $frame.appendChild($title);
     $frame.appendChild($display);
     $container.appendChild($frame);
+
 
     return {
       frame: $frame,
