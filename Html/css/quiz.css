@@ -191,3 +191,47 @@ h3{
 }
 
 /* End setup quiz*/
+
+
+/* Start shortcut choise question*/
+.part {
+   background-color: #FFBE7BFF; 
+  border: 2px solid blue;
+  border-radius: 20px 20px 20px 20px;
+  color: darkblue;
+  margin-left: 3px;
+  margin-bottom: 6px;
+  float: none;
+  padding: 18px 18px;
+  width: 430px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+/*End shortcut choise question*/
+
+/*Start short to shortcut quiz open question*/
+.part1 {
+   background-color: #EED971FF; 
+  border: 2px solid blue;
+  border-radius: 20px 20px 20px 20px;
+  color: darkblue;
+  margin-left: 38px;
+  margin-bottom: 6px;
+  float: none;
+  padding: 18px 18px;
+  width: 42%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+}
+
+/*End shortcut quiz open question*/
+
+.button_home{
+  float: inherit;
+  width: 84px;
+  background-color: orange;
+}
