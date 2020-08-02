@@ -177,10 +177,10 @@ a{
 /* Start Open Questions 1*/
 
 #quiz {
-    margin-left: 10px;
+    margin-left: 2px;
     background: #1184E8;
     padding: 10px 30px 10px 30px;
-    width: 49%;
+    width: 59%;
     float: left;
     display: inline-block;
     border-radius: 20px;
