@@ -96,7 +96,7 @@ body{
 }
 
 b{
-    font-size: 25px;
+    font-size: 26px;
 }
 
 img {
@@ -189,7 +189,8 @@ a{
 
 input{
    margin-bottom: 3px;
-    width: 130px;
+   overflow-wrap: unset;
+    width: 200px;
 }
 
 #textbox{
