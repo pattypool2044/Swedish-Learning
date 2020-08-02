@@ -389,7 +389,7 @@ h2 {
       box-sizing:border-box right;
 
       /*add here*/
-      width:45%;
+      width:47%;
       /*display: inline-block;*/
       display: inline-block;
       height: 230px;
@@ -408,7 +408,7 @@ a{
       color: #000000;
       background: #EE82EE;
       text-align: center;
-      width: 15%;
+      width: 16%;
       height: 230px;
       border-radius: 3px;
  }
