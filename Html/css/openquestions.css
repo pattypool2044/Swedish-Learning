@@ -180,7 +180,7 @@ a{
     margin-left: 2px;
     background: #1184E8;
     padding: 10px 30px 10px 30px;
-    width: 70%;
+    width: 60%;
     float: left;
     display: inline-block;
     border-radius: 20px;
@@ -190,7 +190,7 @@ a{
 input{
    margin-bottom: 3px;
    overflow-wrap: unset;
-    width: 123px;
+    width: 90px;
 }
 
 #textbox{
