@@ -189,7 +189,6 @@ a{
 
 input{
    margin-bottom: 3px;
-   overflow-wrap: break-word;
     width: 90px;
 }
 
@@ -206,6 +205,7 @@ input{
     border:none;
     border-radius: 5px;
     padding: 7px;
+    width: 200px;
     color: white;
     font-size: 16px;
     transition-duration: .5s;
