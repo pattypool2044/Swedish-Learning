@@ -177,7 +177,7 @@ var quizzes = [
     questions: [
          {
         text: "What is on the picture?",
-        image: "imgs/newspaper.jpg",
+        image: "imgs/newspaper.jpg" ,
         choices: [
           { text: "Tidningen", correct: true },
           { text: "En bil", correct: false },
