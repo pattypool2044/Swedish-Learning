@@ -189,8 +189,8 @@ a{
 
 input{
    margin-bottom: 3px;
-   overflow-wrap: unset;
-    width: 90px;
+   overflow-wrap: break-word;
+    width: 130px;
 }
 
 #textbox{
