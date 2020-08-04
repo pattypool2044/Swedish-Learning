@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Open Question Quiz - 1</title>
+  <link rel="stylesheet" type="text/css" href="css/openquestions.css">
+  <script src = "js/openquestions.js" async></script>
+  <link rel="icon" href="imgs/swfl.png">
+  </head>
+
+  <body>
+
+<header>   
+    <h1>Write it in Swedish</h1>
+
+<form style="display: inline" action="Quiz.html" method="get">
+  <button>Quiz Home</button>
+</form>
+	<!-- Start of WebFreeCounter Code -->
+<a href="https://www.webfreecounter.com/" target="_blank"><img src="https://www.webfreecounter.com/hit.php?id=graqppf&nd=6&style=12" alt="visitor counter" style="float: right; width: 190px; height: 25px;"></a>
+<!-- End of WebFreeCounter Code -->
+</header>
+
+<a href="Quiz.html" class="previous">&laquo; Back to Quiz Home</a>
+<a href="openquestions2.html" class="next">Go to Quiz 2 &raquo;</a>
+    <br>
+    <br>
+<p>Answer the questions in Swedish. Remember the 1st letter is always a "capital" letter, otherwise it will be marked as incorrect. There is no "dot" after the answers. If it the picture shows at a place, use "I" or "På" as well. For example picture shows: At work, the answer is: På arbetet. Or when a note is hanging on the wall and I have circled it on the picture, the answer is "Anteckningarna hänger på väggen".</p>
+<p><b>Good Luck!</b></p>
+<br>
+<h2>Open Questions Quiz - 1</h2>
+<br>
+<form id = "quiz" name = "quiz">
+ <label> <b>Q01:</b>
+  <img src="imgs/boring.jpg" alt="boring" />  
+  <input id = "textbook1" type = "text" name ="question1"></label> 
+
+  <label><b>Q02:</b>
+  <img src="imgs/one.png" alt="One" />
+  <input id = "textbook2" type = "text" name ="question2"></label><br>
+
+ <label><b>Q03:</b>
+    <img src="imgs/horsy.JPG" alt="horse" />
+  <input id = "textbook3" type = "text" name ="question3"></label> 
+  
+ <label><b>Q04:</b>
+    <img src="imgs/family.png" alt="family" />
+  <input id = "textbook4" type = "text" name ="question4"></label> <br>
+
+<label><b>Q05:</b>
+    <img src="imgs/hot.JPG" alt="hot" />
+  <input id = "textbook5" type = "text" name ="question5"></label>   
+
+<label><b>Q06:</b>
+    <img src="imgs/strong.JPG" alt="strong" />
+  <input id = "textbook6" type = "text" name ="question6"></label><br>
+
+<label><b>Q07:</b>
+    <img src="imgs/Howareyou.jpg" alt="Howareyou" />
+  <input id = "textbook7" type = "text" name ="question7"></label> 
+
+<label><b>Q08:</b> 
+<img src="imgs/pink.png" alt="pink" />
+  <input id = "textbook8" type = "text" name ="question8"></label> <br>
+
+ <label><b>Q09:</b>
+    <img src="imgs/at_hospital.jpg" alt="at_hospital" />
+  <input id = "textbook9" type = "text" name ="question9"></label>
+
+  <label><b>Q10:</b>
+    <img src="imgs/lamp_desk.JPG" alt="lamp_desk" />
+  <input id = "textbook10" type = "text" name ="question10"></label> <br>
+
+<br>
+  <input id = "button" type = "button" value = "I'm finished!" onclick="check();">
+
+</form>
+<div id = "after_submit">
+	<p id = "message"></p>
+	<p id = "number_correct"></p>
+	<p><img src="" id = "picture" alt="gif"></p>
+  
+</div>
+
+    </body>
+</html>
+
