@@ -21,6 +21,8 @@ img{
 b{
   color: red;
 }
+
+
 header, footer{
   text-transform: uppercase;
   background-color: #AF69EE;
@@ -60,7 +62,6 @@ h4{
 }
 
 /* Start Navigation Horizontal*/
-
 nav {
  position: relative;
   height: 100px;
@@ -149,14 +150,14 @@ a:focus: {
 }
 /* End Navigation Horizontal*/
 
+
+
+
 p{
 color:black;
 font-size: 20px;
 margin-left: 3px;
 }
-
-
-
 /* Start Tables*/
 
 table,th,tr,td{
@@ -191,6 +192,12 @@ td,tr{
 td:hover {
   background: #87CEEB;
   font-weight: bold; 
+}
+
+p:hover {
+  color: #000000;
+  background: yellow;
+
 }
 /* End Tables*/
 
