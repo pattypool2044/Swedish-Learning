@@ -54,7 +54,6 @@ h4{
 
 /* Start Navigation Horizontal*/
 
-/* New NAV with submenu */
 nav {
  position: relative;
   height: 100px;
@@ -79,7 +78,7 @@ nav li a{
   display: inline-block;
   text-decoration: none;
   height:13px;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 8px 8px 8px 8px;
   border: 1px solid black;
   text-align: center;
   margin-top: 5px; 
@@ -91,7 +90,7 @@ nav ul li {
   position: relative;
   padding: 0px;
   width: 17%;
-  margin: 1% 5% 1% 0;
+  margin: 1% 4% 1% 0;
 }
 
 
@@ -128,7 +127,7 @@ nav ul li a {
   display: block;
   color: black;
   font-size: 22px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   padding-top:10px;
   text-decoration: none;
   text-transform: capitalize;
@@ -205,7 +204,7 @@ a:focus: {
   color: #666666;
 }
 
-/* New NAV with submenu */S
+/* New NAV with submenu */
 /* End Navigation Horizontal*/
 
 p{
