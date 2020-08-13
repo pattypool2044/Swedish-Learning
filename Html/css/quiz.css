@@ -69,6 +69,8 @@ h4{
 
 /* Start Navigation Horizontal*/
 
+/* Start Navigation Horizontal*/
+
 nav {
  position: relative;
   height: 100px;
@@ -79,61 +81,134 @@ nav a{
   color: #000000;
   display: inline-block;
   text-decoration: none;
-
   height:15px;
-  border-radius: 10px;
+  border-radius: 15px;
   border: 1px solid purple;
-  padding-left:10px;
-  padding-bottom: 25px;
+  padding: 20px;
   text-align: center;
 }
-  
 
-nav ul li {
- float: left;
-  list-style: none;
-  position: relative;
-  padding: 0px;
-  width: 20%;
-  margin: 1% 5% 1% 0;
+nav li a{
+  background-color: rgba(238,130,240,.3);
+  color: #000000;
+  display: inline-block;
+  text-decoration: none;
+  height:13px;
+  border-radius: 8px 8px 8px 8px;
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 5px; 
 }
 
-nav ul  li a {
+nav ul li {
   display: block;
-  color: black;
-  font-size: 24px;
-  padding-bottom: 30px;
-  padding-top:10px;
-  text-decoration: none;
-  text-transform: capitalize;
-   font-family: cursive;
-   text-align: center;
+  float: left;
+  position: relative;
+  padding: 0;
+  width: 20%;
+  margin: 1% 5% 1% 0;
+  word-wrap: all;
 }
 
 
 nav ul  li ul {
   display: none;
     position: absolute;
-    background: pink;
     padding: 0px;
+     width: 100%;
+     margin: 1% 1% 1% 0%;
 }
 
-nav ul  li:hover ul {
+nav ul {
+  list-style: none;
+  padding: 0px;
+  
+}
+
+
+nav ul li {
   display: block;
+  position: relative;
+  float: left;
+}
+
+
+nav li ul { 
+    display: none;  
 }
 
 nav ul  li ul li {
 width: 100%;
-
+padding: 0px;
 }
 
-nav ul  li ul li a {
-  padding-left:  60px;
-  padding-right: 60px;
-  font-size: 20px;
-  font-family: arial;
-
+nav ul li a {
+  display: block;
+  color: black;
+  font-size: 25px;
+  padding-bottom:30px;
+  padding-top:20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: all;
+  text-align: center;
+ 
 }
+
+nav ul li a:hover { 
+    background: blue; 
+    color: black;
+}
+
+
+nav li:hover > ul {
+  display: block;
+  position: absolute;
+}
+
+nav li:hover li { 
+    float: none; 
+}
+
+nav li:touch li { 
+    float: none; 
+}
+
+nav li:hover a { 
+    background-color: white;
+    background: pink;
+    color:black; 
+}
+
+nav li:hover li a:hover { 
+    background: #FFFFFF; 
+}
+
+.main-navigation nav li ul li { 
+    border-top: 0; 
+ }
+
+#menu-main-navigation .sub-menu li a:hover {
+background: #5e3c73;
+color: white !important;
+}
+
+nav ul ul ul {
+  right: 100%;
+  top: 0;
+}
+
+nav ul:before,
+nav ul:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+  clear: both; 
+}
+
+nav ul:after { 
+    clear: both; 
+}
+
 
 nav ul  li ul li a:hover {
 background-color: white;
@@ -145,11 +220,18 @@ font-weight: bold;
    border: 3px solid #000000;
 }
 
+
 a:hover {
-   color: #000000;
-   background: blue;
+   color: black;
+   background: lightblue;
    font-weight: bold; 
 }
+
+a:focus: {
+  background: blue;
+  color: #666666;
+}
+/* New NAV with submenu */
 
 a:focus: {
   background: #FFE5B4;
