@@ -185,6 +185,7 @@ nav ul:before,
 nav ul:after {
   content: " "; /* 1 */
   display: table; /* 2 */
+  clear: both; 
 }
 
 nav ul:after { 
