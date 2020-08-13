@@ -171,6 +171,10 @@ nav li:hover li a:hover {
     border-top: 0; 
  }
 
+#menu-main-navigation .sub-menu li a:hover {
+background: #5e3c73;
+color: white !important;
+}
 
 nav ul ul ul {
   right: 100%;
