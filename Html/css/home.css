@@ -67,8 +67,7 @@ nav a{
   height:15px;
   border-radius: 15px;
   border: 1px solid purple;
-  padding-left:10px;
-  padding-bottom: 25px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -88,9 +87,10 @@ nav ul li {
   display: block;
   float: left;
   position: relative;
-  padding: 0px;
-  width: 17%;
-  margin: 1% 4% 1% 0;
+  padding: 0;
+  width: 20%;
+  margin: 1% 5% 1% 0;
+  word-wrap: all;
 }
 
 
@@ -98,6 +98,8 @@ nav ul  li ul {
   display: none;
     position: absolute;
     padding: 0px;
+     width: 100%;
+     margin: 1% 1% 1% 0%;
 }
 
 nav ul {
@@ -126,14 +128,14 @@ padding: 0px;
 nav ul li a {
   display: block;
   color: black;
-  font-size: 22px;
-  padding-bottom: 20px;
-  padding-top:10px;
+  font-size: 25px;
+  padding-bottom:30px;
+  padding-top:20px;
   text-decoration: none;
   text-transform: capitalize;
-   font-family: cursive;
-   text-align: center;
-   white-space: nowrap;
+  font-family: all;
+  text-align: center;
+ 
 }
 
 nav ul li a:hover { 
@@ -148,6 +150,10 @@ nav li:hover > ul {
 }
 
 nav li:hover li { 
+    float: none; 
+}
+
+nav li:touch li { 
     float: none; 
 }
 
@@ -167,7 +173,7 @@ nav li:hover li a:hover {
 
 
 nav ul ul ul {
-  left: 100%;
+  right: 100%;
   top: 0;
 }
 
@@ -203,7 +209,6 @@ a:focus: {
   background: blue;
   color: #666666;
 }
-
 /* New NAV with submenu */
 /* End Navigation Horizontal*/
 
