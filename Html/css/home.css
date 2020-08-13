@@ -214,6 +214,13 @@ a:focus: {
   background: blue;
   color: #666666;
 }
+
+ul.menu li ul.sub-menu li{
+    float:none;
+}  
+ul.menu li ul.sub-menu{
+    position:absolute;
+}
 /* New NAV with submenu */
 /* End Navigation Horizontal*/
 
