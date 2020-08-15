@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=0.65">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>Swedish Learning Games</title>
+  <link rel="stylesheet" type="text/css" href="css/games.css">
+  <script src = "js/games.js" async></script>
+  <link rel="icon" href="imgs/swfl.png">
+  </head>
+
+  <body>
+    <!--start--> 
+   <header>   
+    <h1>Memory 12 Cards</h1>
+<nav>
+<ul class="main-navigation">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="Games.html" class = "active">Games</a></li>
+  <li><a href="Quiz.html">Quiz</a></li>
+    <li><a href="#">Links</a>
+    <ul>
+     
+      <li><a href="#">lessons</a>
+        <ul>
+          <li><a href="page1.html">1-13</a></li>
+          <li><a href="page2.html">14-20</a></li>
+          <li><a href="page3.html">21- ...</a></li>
+          <li><a href="#">... - ... </a></li>
+        </ul>
+      </li>
+      <li><a href="#">Dialogue</a>
+        <ul>
+          <li><a href="DialoguesPage1.html">1 - ...</a></li>
+          <li><a href="#">... - ...</a></li>
+        </ul>
+      </li>
+   </ul>
+</li>
+</ul>
+
+</nav>
+</header>
+
+<a href="Games.html" class="previous">&laquo; Back to Games</a>
+<a href="Memory16Cards.html" class="next">Memory 16 Cards &raquo;</a>
+    <br>
+<h4 class="Swedish_Memory">Swedish Memory Game - 12 Cards</h4>
+
+<div class="overlay-text visible">Click to Start</div>
+<div id= "game-over-text" class="overlay-text ">GAME OVER <span class="overlay-text-smal">Click to restart</span></div>
+<div id= "victory-text" class="overlay-text ">VICTORY <span class="overlay-text-smal">Click to restart</span></div>
+<div class="game-container">
+  <div class="game-info-container">
+    <div class="game-info">
+      Time <span id="time-remaining">110</span>
+     </div>
+         <div class="game-info">
+      Flips <span id="flips">0</span>
+     </div>
+   </div>
+  <div class="card">
+            <div class="card-back card-face">
+              <img class="checkered" src="imgs/swfl.png" alt="Swe_Flag">
+  </div>
+  <div class="card-front card-face">
+    <img class="card-value" src="imgs/bil_text.JPG" alt="Car">
+  </div>
+  </div>
+   <div class="card">
+            <div class="card-back card-face">
+              <img class="checkered" src="imgs/swfl.png" alt="Swe_Flag">
+  </div>
+  <div class="card-front card-face">
+    <img class="card-value" src="imgs/bil_text.JPG" alt="Car">
+  </div>
+  </div>
+
+ <div class="card">
+            <div class="card-back card-face">
+              <img class="checkered" src="imgs/swfl.png" alt="Swe_Flag">
+  </div>
+  <div class="card-front card-face">
+    <img class="card-value" src="imgs/bok_text.JPG" alt="Book">
+  </div>
+  </div>
+ <div class="card">
+            <div class="card-back card-face">
+              <img class="checkered" src="imgs/swfl.png" alt="Swe_Flag">
+  </div>
+  <div class="card-front card-face">
+    <img class="card-value" src="imgs/bok_text.JPG" alt="Book">
+  </div>
+  </div>
+ <div class="card">
+            <div class="card-back card-face">
+              <img class="checkered" src="imgs/swfl.png" alt="Swe_Flag">
+  </div>
+  <div class="card-front card-face">
+    <img class="card-value" src="imgs/lila_text.JPG" alt="Purple">
+  </div>
+  </div>
+ <div class="card">
+            <div class="card-back card-face">
+              <img class="checkered" src="imgs/swfl.png" alt="Swe_Flag">
+  </div>
+  <div class="card-front card-face">
+    <img class="card-value" src="imgs/lila_text.JPG" alt="Purple">
+  </div>
+  </div>
+ <div class="card">
+            <div class="card-back card-face">
+              <img class="checkered" src="imgs/swfl.png" alt="Swe_Flag">
+  </div>
+  <div class="card-front card-face">
+    <img class="card-value" src="imgs/bord_text.JPG" alt="Table">
+  </div>
+  </div>
+ <div class="card">
+            <div class="card-back card-face">
+              <img class="checkered" src="imgs/swfl.png" alt="Swe_Flag">
+  </div>
+  <div class="card-front card-face">
+    <img class="card-value" src="imgs/bord_text.JPG" alt="Table">
+  </div>
+  </div>
+ <div class="card">
+            <div class="card-back card-face">
+              <img class="checkered" src="imgs/swfl.png" alt="Swe_Flag">
+  </div>
+  <div class="card-front card-face">
+    <img class="card-value" src="imgs/laugh_text.JPG" alt="Laughing">
+  </div>
+  </div>
+ <div class="card">
+            <div class="card-back card-face">
+              <img class="checkered" src="imgs/swfl.png" alt="Swe_Flag">
+  </div>
+  <div class="card-front card-face">
+    <img class="card-value" src="imgs/laugh_text.JPG" alt="Laughing">
+  </div>
+  </div>
+ <div class="card">
+            <div class="card-back card-face">
+              <img class="checkered" src="imgs/swfl.png" alt="Swe_Flag">
+  </div>
+  <div class="card-front card-face">
+    <img class="card-value" src="imgs/ö.png" alt="Letter_ö">
+  </div>
+  </div>
+ <div class="card">
+            <div class="card-back card-face">
+              <img class="checkered" src="imgs/swfl.png" alt="Swe_Flag">
+  </div>
+  <div class="card-front card-face">
+    <img class="card-value" src="imgs/ö.png" alt="Letter_ö">
+  </div>
+  </div>
+
+
+</div>
+
+<footer>
+<!-- Start of WebFreeCounter Code -->
+<a href="https://www.webfreecounter.com/" target="_blank"><img src="https://www.webfreecounter.com/hit.php?id=guaqppq&nd=6&style=12" alt="visitor counter"  style="float: right; width: 190px; height: 25px;"></a>
+<!-- End of WebFreeCounter Code -->
+
+<form action="#top">
+    <button type="submit">Back to Top</button>
+</form>
+
+</footer>
+</body>
+</html>
