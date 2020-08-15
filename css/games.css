@@ -1,0 +1,551 @@
+body{
+  background: #EEDAF0;
+  margin: 6PX;
+}
+
+
+img{
+  border: 2px solid #000000;
+  height: 75px;
+  width: 75px;
+}
+
+
+.center {
+  display: block;
+ margin-left: auto;
+  margin-right: auto;
+ width: 50%;
+} 
+
+b{
+  color:  #000000;
+}
+header, footer{
+  text-transform: uppercase;
+  background-color: #AF69EE;
+  padding: 15px;
+  background: #9370DB;
+  background: -moz-linear-gradient(top,#9370DB);
+  background: -webkit-linear-gradient(#9370DB 0%, #CEBEEF 100%);
+  background: -o-linear-gradient(#9370DB 0%, #CEBEEF 100%);
+  background: linear gradient(#9370DB 0%, #CEBEEF 100%);
+  background: -ms-linear-gradient(top,  #9370DB 0%,#CEBEEF 100%); /* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE+ */
+}
+
+h1{
+  text-align:center;
+  font-size: 25px;
+  background:#F5E1FD;
+
+}
+
+h2{
+  font-size: 35px;
+  margin-left: 3px;
+  background:#F5E1FD;
+}
+
+h3{
+    font-size: 20px;
+  margin-left: 3px;
+  background:#F5E1FD;
+}
+
+h4{
+      font-size: 20px;
+  margin-left: 3px;
+  background:#F5E1FD;
+}
+
+/* Start Navigation Horizontal*/
+
+/* Start Navigation Horizontal*/
+
+nav {
+ position: relative;
+  height: 100px;
+}
+
+nav a{
+  background-color: rgba(238,130,240,.3);
+  color: #000000;
+  display: inline-block;
+  text-decoration: none;
+  height:15px;
+  border-radius: 15px;
+  border: 1px solid purple;
+  padding: 20px;
+  text-align: center;
+}
+
+nav li a{
+  background-color: rgba(238,130,240,.3);
+  color: #000000;
+  display: inline-block;
+  text-decoration: none;
+  height:13px;
+  border-radius: 8px 8px 8px 8px;
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 5px; 
+}
+
+nav ul li {
+  display: block;
+  float: left;
+  position: relative;
+  padding: 0;
+  width: 20%;
+  margin: 1% 5% 1% 0;
+  word-wrap: all;
+}
+
+
+nav ul  li ul {
+  display: none;
+    position: absolute;
+    padding: 0px;
+     width: 100%;
+     margin: 1% 1% 1% 0%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0px;
+  
+}
+
+
+nav ul li {
+  display: block;
+  position: relative;
+  float: left;
+}
+
+
+nav li ul { 
+    display: none;  
+}
+
+nav ul  li ul li {
+width: 100%;
+padding: 0px;
+}
+
+nav ul li a {
+  display: block;
+  color: black;
+  font-size: 25px;
+  padding-bottom:30px;
+  padding-top:20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: all;
+  text-align: center;
+ 
+}
+
+nav ul li a:hover { 
+    background: blue; 
+    color: black;
+}
+
+
+nav li:hover > ul {
+  display: block;
+  position: absolute;
+}
+
+nav li:hover li { 
+    float: none; 
+}
+
+nav li:touch li { 
+    float: none; 
+}
+
+nav li:hover a { 
+    background-color: white;
+    background: pink;
+    color:black; 
+}
+
+nav li:hover li a:hover { 
+    background: #FFFFFF; 
+}
+
+.main-navigation nav li ul li { 
+    border-top: 0; 
+ }
+
+#menu-main-navigation .sub-menu li a:hover {
+background: #5e3c73;
+color: white !important;
+}
+
+nav ul ul ul {
+  right: 100%;
+  top: 0;
+}
+
+nav ul:before,
+nav ul:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+  clear: both; 
+}
+
+nav ul:after { 
+    clear: both; 
+}
+
+
+nav ul  li ul li a:hover {
+background-color: white;
+font-weight: bold; 
+}
+
+ .active {
+  background-color: #FFFFFF;
+   border: 3px solid #000000;
+}
+
+
+a:hover {
+   color: #00B2FF;
+   background: blue;
+   font-weight: bold; 
+}
+
+a:focus: {
+  background: blue;
+  color: #666666;
+}
+/* New NAV with submenu */
+
+/* End Navigation Horizontal*/
+
+p{
+color:black;
+font-size: 20px;
+margin-left: 3px;
+}
+
+/* Start Memory*/
+
+
+.page-title {
+  color: #FF6D00;
+  font-family: serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 6em;
+}
+
+.Swedish_Memory {
+  text-align: center;
+  color: Blue;
+  font-family: cursive;
+  font-size: 35px;
+  padding: none;
+}
+
+.game-info-container {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+    transform-style: preserve-3d;
+  transition: transform 1s;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: transform 1s;
+  -o-transform-style: preserve-3d;
+  -o-transition: transform 1s;
+  -moz-transform-style: preserve-3d;
+  -moz-transition: transform 1s;
+}
+
+
+.game-info {
+  font-family: serif;
+  color: black;
+  font-size: 2em;
+}
+
+.game-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  margin: 50px;
+  justify-content: center;
+  perspective: 500px;
+    transform-style: preserve-3d;
+  transition: transform 1s;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: transform 1s;
+  -o-transform-style: preserve-3d;
+  -o-transition: transform 1s;
+  -moz-transform-style: preserve-3d;
+  -moz-transition: transform 1s;
+}
+
+
+.card { 
+  position: relative;
+  height: 175px;
+  width: 145px;
+    -webkit-perspective: 800px;
+  -o-perspective: 800px;
+  -moz-perspective: 800px;
+
+}
+
+
+.card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  border-width: 1px;
+  border-style: solid;
+  transition: transform 500ms ease-in-out;
+  backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+
+}
+.card.visible .card-back {
+  transform: rotateY(-180deg);
+      transform-style: preserve-3d;
+  transition: transform 1s;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: transform 1s;
+  -o-transform-style: preserve-3d;
+  -o-transition: transform 1s;
+  -moz-transform-style: preserve-3d;
+  -moz-transition: transform 1s;
+
+}
+
+
+.card.visible .card-front {
+  transform: rotateY(0)
+
+}
+
+
+.card.matched .card-value {
+  animation: dance 1s linear infinite 500ms;
+}
+
+.overlay-text {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  color: Green;
+  font-family: serif;
+
+}
+
+.overlay-text-small {
+  font-size: .3em;
+
+}
+
+.overlay-text.visible {
+  display: flex;
+  flex-direction: column;
+  animation: overlay-grow 500ms forwards;
+}
+
+@keyframes overlay-grow {
+  from {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 0;
+  }
+  to {
+    background-color: rgba(0, 0, 0, .8);
+    font-size: 10em;
+
+  }
+}
+
+@keyframes dance {
+  0%, 100%  {
+    transform: rotate(0);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  70% {
+    transform: rotate(10deg);
+  }
+}
+
+
+.card-back {
+  background-color: black;
+  border-color: #FF6D00;
+        transform-style: preserve-3d;
+  transition: transform 1s;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: transform 1s;
+  -o-transform-style: preserve-3d;
+  -o-transition: transform 1s;
+  -moz-transform-style: preserve-3d;
+  -moz-transition: transform 1s;
+
+}
+
+.card-front{
+  background-color: purple;
+  border.color: black;
+  transform: rotateY(180deg);
+}
+
+.card-back:hover .checkered{
+ height: 175px;
+  width: 145px; 
+
+}
+
+.card-value {
+  transition: transform 100ms ease-in-out;
+  transform: scale(.9);
+}
+
+
+
+.card-front:hover .card-value {
+  transform: scale(1);
+}
+
+img{
+  height: 175px;
+  width: 145px; 
+}
+
+.checkered{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+    transform-style: preserve-3d;
+  transition: transform 1s;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform 1s;
+  -o-transform-style: preserve-3d;
+  -o-transition: -o-transform 1s;
+  -moz-transform-style: preserve-3d;
+  -moz-transition: -moz-transform 1s;
+}
+
+@media (max-width: 600px) {
+  .game-container {
+    grid-template-columns: repeat(2, auto);
+
+  }
+
+  .game-info-container {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+}
+
+}
+/* End Memory*/
+
+/* Start Line up Game Box*/
+h2 {
+  text-align: center;
+}
+
+.box { background-color: #0000CC; 
+      color:#ffffff;
+      box-sizing:border-box right;
+
+      /*add here*/
+      width:47%;
+      /*display: inline-block;*/
+      display: inline-block;
+      height: 230px;
+      margin: 5px;
+      border: 10px solid #000000;
+      padding: 15px;
+      margin: 0 auto;
+      margin-top: 50px;
+      font-size: 120%;
+}
+
+a{
+  color: black;
+}
+.box{ 
+      color: #000000;
+      background: #EE82EE;
+      text-align: center;
+      width: 16%;
+      height: 230px;
+      border-radius: 3px;
+ }
+
+ .base{
+   width: 75%;
+   height: 130px;
+ }
+
+/* End Line up Game Box*/
+
+/* Start 24 Cards*/
+.game-container1 {
+  display: grid;
+  grid-template-columns: repeat(6 , auto);
+  grid-gap: 10px;
+  margin: 50px;
+  justify-content: center;
+  perspective: 500px;
+    transform-style: preserve-3d;
+  transition: transform 1s;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: transform 1s;
+  -o-transform-style: preserve-3d;
+  -o-transition: transform 1s;
+  -moz-transform-style: preserve-3d;
+  -moz-transition: transform 1s;
+}
+
+/* End 24 Cards*/
+
+/* Start next and previous buttons*/
+a:hover {
+  background-color: blue;
+  color: #000000;
+}
+
+.previous {
+  background-color: #FFFF33;
+  color: #000000;
+  float: inherit;
+  font-size: 20px ;
+}
+
+.next {
+  background-color: #FFFF33;
+  color: #000000;
+  float: right;
+  font-size: 20px;
+}
+/* End next and previous buttons*/
