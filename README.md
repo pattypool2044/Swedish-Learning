@@ -1,2 +1,2 @@
-# Swedish-Learning.io
+# Swedish-Learning
 Combining learning Swedish and Coding
