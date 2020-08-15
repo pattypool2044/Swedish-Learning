@@ -1,4 +1,4 @@
-/*
+
 function check(){
 	var question1 = document.quiz.question1.value;
 	var question2 = document.quiz.question2.value;
@@ -12,35 +12,35 @@ function check(){
     var question10 = document.quiz.question10.value;
 	var correct = 0;
 
-        if (question1 == "1") {
+        if (question1 == "Blåsa, Blåser, Blåste") {
             correct++;
         }
 
-        if (question2 == "2") {
+        if (question2 == "Flyga, Flyger, Flög") {
             correct++;
         }
-        if (question3 == "3") {
+        if (question3 == "Flytta, Flyttar, Flyttade") {
             correct++;
         }
-        if (question4 == "4") {
+        if (question4 == "Rida, Rider, Red") {
             correct++;
         }
-        if (question5 == "5") {
+        if (question5 == "Le, Ler, Log") {
             correct++;
         }
-        if (question6 == "6") {
+        if (question6 == "Ramla, Ramlar, Ramlade") {
             correct++;
         }
-        if (question7 == "7") {
+        if (question7 == "Gå, Går, Gick") {
             correct++;
         }
-        if (question8 == "8") {
+        if (question8 == "Vakna, Vaknar, Vaknade") {
             correct++;
         }
-        if (question9 == "9") {
+        if (question9 == "Skrika, Skriker, Skrek") {
             correct++;
         }        
-        if (question10 == "10") {
+        if (question10 == "Sova, Sover, Sov") {
             correct++;
         }
            
