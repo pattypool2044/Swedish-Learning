@@ -230,6 +230,11 @@ font-size: 25px;
 margin-left: 3px;
 }
 
+p:hover {
+  color: #000000;
+  background: yellow;
+
+}
 
 /* Start next and previous buttons*/
 a:hover {

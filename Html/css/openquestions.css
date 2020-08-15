@@ -4,6 +4,17 @@ h4{
   background:#F5E1FD;
 }
 
+p{
+color:black;
+font-size: 20px;
+margin-left: 3px;
+}
+
+p:hover {
+  color: #000000;
+  background: yellow;
+
+}
 /* Start Navigation Horizontal*/
 
 /* Start Navigation Horizontal*/
