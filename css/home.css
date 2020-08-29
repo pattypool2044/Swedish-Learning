@@ -279,12 +279,12 @@ a:hover {
   margin-left: 3px;
   margin-bottom: 6px;
   float: none;
-  padding: 18px 18px;
+  padding: 18px 18px 20px 20px;
   width: 30%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 25px;
+  font-size: 22px;
 }
 /*End shortcut links*/
 
