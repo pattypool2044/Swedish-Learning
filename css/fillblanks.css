@@ -13,9 +13,26 @@ h3{
 	background-color: #FCBACB;
 	border-radius: 20px 20px 20px 20px;
 	font-size: 25px;
+	text-align: center;
 
 }
 
+label{
+	font-size: 20px;
+}
+
+p{
+	font-size: 20px;
+}
+
+input{
+	font-size: 20px;
+}
+
+#choises001{
+  color: blue;
+  font-size: 20px;
+}
 #color001{
 	color: black;
 	font-size: large;
