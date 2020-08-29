@@ -280,7 +280,7 @@ a{
 /* Start Open Questions 1*/
 
 #quiz {
-    margin-left: 2%;
+     margin-left: 2%;
     background: #1184E8;
     padding: 20px 30px 20px 30px;
     width: 50%;
@@ -392,6 +392,10 @@ label {
 
 input {
   font-size: 25px;
-  width: 180px;
-  height: 50%;
+  width: 20%;
+  height: 40%;
+}
+
+b{
+  font-size:20px;
 }
