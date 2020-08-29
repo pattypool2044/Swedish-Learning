@@ -271,12 +271,13 @@ a{
   font-family: cursive;
   font-size: 25px;
   padding: none;
+
 }
 /* End Line up quiz Box*/
 /* Start Open Questions 1*/
 
 #quiz {
-    margin-left: 2px;
+    margin-left: 14%;
     background: #1184E8;
     padding: 10px 30px 10px 30px;
     width: 60%;
