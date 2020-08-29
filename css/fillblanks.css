@@ -1,0 +1,70 @@
+#frame001{
+	background-color: #FFB6C1;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 80%;
+	height: auto;
+	padding: 2px;
+	margin: 4px;
+}
+
+h2{
+	border: 2px solid black;
+	background-color: #FFEFD5;
+	border-radius: 20px 20px 20px 20px;
+
+}
+
+#color001{
+	color: black;
+	font-size: large;
+	text-align: left;
+}
+
+#center001 {
+	text-align: center;
+}
+
+.button001 {
+	background-color: blue;
+	color: white;
+	border-radius: 10px;
+	padding: 15px;
+	cursor: pointer;
+}
+
+.button002{
+	width: 10px;
+	height: 10px;
+	color: purple;
+}
+
+body{
+    margin: 6px;
+    background-color: #EEDAF0;
+}
+
+header, footer{
+  text-transform: uppercase;
+  background-color: #AF69EE;
+  padding: 15px;
+  background: #9370DB;
+  background: -moz-linear-gradient(top,#9370DB);
+  background: -webkit-linear-gradient(#9370DB 0%, #CEBEEF 100%);
+  background: -o-linear-gradient(#9370DB 0%, #CEBEEF 100%);
+  background: linear gradient(#9370DB 0%, #CEBEEF 100%);
+  background: -ms-linear-gradient(top,  #9370DB 0%,#CEBEEF 100%); /* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE+ */
+}
+
+h1{
+  text-align:center;
+  font-size: 25px;
+  background:#F5E1FD;
+
+}
+
+div p{
+	text-align: left;
+	float: center;
+}
