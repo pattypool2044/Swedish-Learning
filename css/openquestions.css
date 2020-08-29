@@ -201,7 +201,7 @@ b{
 }
 
 img {
-    width: 90px;
+    width: 12%;
     height: 60px;
 }
 
@@ -242,8 +242,11 @@ h2 {
       display: inline-block;
       height: 230px;
       border: 10px solid #000000;
-      padding: 15px;
-      margin-left: 40%;
+     padding: 5px; 
+      margin-left: 5%;
+      margin: 0 auto;
+      margin-top: 50px;
+      margin: 5px;
 
 }
 
@@ -259,10 +262,10 @@ a{
       border-radius: 3px;
  }
 
- .base{
-   width: 75%;
-   height: 130px;
- }
+ .base{ 
+  width: 55%; 
+  height: 130px; 
+}
 
 
 .Swedish_Quiz {
@@ -277,20 +280,16 @@ a{
 /* Start Open Questions 1*/
 
 #quiz {
-    margin-left: 14%;
+    margin-left: 2%;
     background: #1184E8;
-    padding: 10px 30px 10px 30px;
-    width: 60%;
+    padding: 20px 30px 20px 30px;
+    width: 50%;
     float: left;
     display: inline-block;
     border-radius: 20px;
     border: 2px solid blue;
 }
 
-input{
-   margin-bottom: 3px;
-    width: 90px;
-}
 
 #textbox{
       height: 5px;
@@ -394,10 +393,11 @@ button{
 }
 
 label {
-  font-size: 60px;
+  font-size: 25px;
 }
 
 input {
-  font-size: 23px;
-  width: 28%;
+  font-size: 25px;
+  width: 22%;
+  height: 50%;
 }
