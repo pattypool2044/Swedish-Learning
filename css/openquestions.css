@@ -241,12 +241,10 @@ h2 {
       /*display: inline-block;*/
       display: inline-block;
       height: 230px;
-      margin: 5px;
       border: 10px solid #000000;
       padding: 15px;
-      margin: 0 auto;
-      margin-top: 50px;
-      font-size: 120%;
+      margin-left: 40%;
+
 }
 
 a{
@@ -392,4 +390,13 @@ a:hover {
 
 button{
  background-color: orange;
+}
+
+label {
+  font-size: 60px;
+}
+
+input {
+  font-size: 23px;
+  width: 28%;
 }
