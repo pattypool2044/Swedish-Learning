@@ -1,0 +1,324 @@
+body{
+  background: #EEDAF0;
+  margin: 6PX;
+}
+
+
+img{
+  border: 2px solid #000000;
+  height: 75px;
+  width: 75px;
+}
+
+
+.center {
+  display: block;
+ margin-left: auto;
+  margin-right: auto;
+ width: 50%;
+} 
+
+b{
+  color: red;
+}
+
+
+header, footer{
+  text-transform: uppercase;
+  background-color: #AF69EE;
+  padding: 25px;
+  background: #9370DB;
+  background: -moz-linear-gradient(top,#9370DB);
+  background: -webkit-linear-gradient(#9370DB 0%, #CEBEEF 100%);
+  background: -o-linear-gradient(#9370DB 0%, #CEBEEF 100%);
+  background: linear gradient(#9370DB 0%, #CEBEEF 100%);
+  background: -ms-linear-gradient(top,  #9370DB 0%,#CEBEEF 100%); /* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE+ */
+}
+
+h1{
+  text-align:center;
+  font-size: 25px;
+  background:#F5E1FD;
+
+}
+
+h2{
+  font-size: 35px;
+  margin-left: 3px;
+  background:#F5E1FD;
+}
+
+h3{
+    font-size: 20px;
+  margin-left: 3px;
+  background:#F5E1FD;s
+}
+
+h4{
+      font-size: 20px;
+  margin-left: 3px;
+  background:#F5E1FD;
+}
+
+/* Start Navigation Horizontal*/
+/* New NAV with submenu */
+nav {
+ position: relative;
+  height: 100px;
+}
+
+nav a{
+  background-color: rgba(238,130,240,.3);
+  color: #000000;
+  display: inline-block;
+  text-decoration: none;
+  height:15px;
+  border-radius: 15px;
+  border: 1px solid purple;
+  padding: 20px;
+  text-align: center;
+}
+
+nav li a{
+  background-color: rgba(238,130,240,.3);
+  color: #000000;
+  display: inline-block;
+  text-decoration: none;
+  height:13px;
+  border-radius: 8px 8px 8px 8px;
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 5px; 
+}
+
+nav ul li {
+  display: block;
+  float: left;
+  position: relative;
+  padding: 0;
+  width: 20%;
+  margin: 1% 5% 1% 0;
+  word-wrap: all;
+}
+
+
+nav ul  li ul {
+  display: none;
+    position: absolute;
+    padding: 0px;
+     width: 100%;
+     margin: 1% 1% 1% 0%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0px;
+  
+}
+
+
+nav ul li {
+  display: block;
+  position: relative;
+  float: left;
+}
+
+
+nav li ul { 
+    display: none;  
+}
+
+nav ul  li ul li {
+width: 100%;
+padding: 0px;
+}
+
+nav ul li a {
+  display: block;
+  color: black;
+  font-size: 25px;
+  padding-bottom:30px;
+  padding-top:20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: all;
+  text-align: center;
+ 
+}
+
+nav ul li a:hover { 
+    background: blue; 
+    color: black;
+}
+
+
+nav li:hover > ul {
+  display: block;
+  position: absolute;
+}
+
+nav li:hover li { 
+    float: none; 
+}
+
+nav li:touch li { 
+    float: none; 
+}
+
+nav li:hover a { 
+    background-color: white;
+    background: pink;
+    color:black; 
+}
+
+nav li:hover li a:hover { 
+    background: #FFFFFF; 
+}
+
+.main-navigation nav li ul li { 
+    border-top: 0; 
+ }
+
+#menu-main-navigation .sub-menu li a:hover {
+background: #5e3c73;
+color: white !important;
+}
+
+nav ul ul ul {
+  right: 100%;
+  top: 0;
+}
+
+nav ul:before,
+nav ul:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+nav ul:after { 
+    clear: both; 
+}
+
+
+nav ul  li ul li a:hover {
+background-color: white;
+font-weight: bold; 
+}
+
+ .active {
+  background-color: #FFFFFF;
+   border: 3px solid #000000;
+}
+
+
+a:hover {
+   color: #00B2FF;
+   background: blue;
+   font-weight: bold; 
+}
+
+a:focus: {
+  background: blue;
+  color: #666666;
+}
+
+/* New NAV with submenu */
+/* End Navigation Horizontal*/
+
+
+p {
+  font-size: 20px;
+}
+
+/* Start zoom and audio*/
+.zoom {
+  transition: transform .2s;
+  margin: 0 auto;
+  visibility: all;
+
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 -12*/
+  -webkit-transform: scale(1.5); /* Safari 11+*/
+  transform: scale(1.2); 
+  visibility: all;
+}
+
+img:hover {
+  -ms-transform: scale(1.5); /* IE 9 -12*/
+  -webkit-transform: scale(1.5); /* Safari 11+ */
+  transform: scale(1.6); 
+  visibility: all;
+}
+
+audio{
+  width: 100px !important;
+  display:inline-block;
+}
+
+/* End zoom and Audio*/
+
+p:hover {
+  color: #000000;
+  background: yellow;
+
+}
+
+/* Start shortcut links*/
+.part {
+   background-color: #FFBE7BFF; 
+  border: 2px solid blue;
+  border-radius: 20px 20px 20px 20px;
+  color: black;
+  margin-left: 3px;
+  margin-bottom: 6px;
+  float: none;
+  padding: 10px 10px 10px 10px;
+  width: 40%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+/*End shortcut links*/
+
+/*Start Dialog layout*/
+
+.container {
+  border: 1px solid darkblue;
+  background-color: #C7E0F4;
+  border-radius: 5px;
+  padding: 2px;
+  margin-left: 20%;
+  width: 60%;
+}
+
+.darker {
+  border-color: 1px solid #000000;
+  background-color: #45B6FE;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  height: 60px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+/*End Dialog layout*/
