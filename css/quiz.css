@@ -321,3 +321,25 @@ h3{
 button{
  background-color: yellow;
 }
+
+
+/* Start next and previous buttons*/
+a:hover {
+  background-color: #ADD8E6;
+  color: #000000;
+}
+
+.previous {
+  background-color: #FFFF33;
+  color: #000000;
+  float: inherit;
+  font-size: 20px ;
+}
+
+.next {
+  background-color: #FFFF33;
+  color: #000000;
+  float: right;
+  font-size: 20px;
+}
+/* End next and previous buttons*/

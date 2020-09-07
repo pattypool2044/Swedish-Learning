@@ -1,11 +1,38 @@
-#frame001{
-	background-color: #FFF0D8;
-	border: 2px solid black;
-	border-radius: 10px;
-	width: 80%;
-	height: auto;
-	padding: 2px;
-	margin-left: 10%;
+
+h2{
+	  font-size: 35px;
+  margin-left: 3px;
+  background:#F5E1FD;
+}
+
+body{
+    margin: 6px;
+    background-color: #EEDAF0;
+}
+
+header, footer{
+  text-transform: uppercase;
+  background-color: #AF69EE;
+  padding: 15px;
+  background: #9370DB;
+  background: -moz-linear-gradient(top,#9370DB);
+  background: -webkit-linear-gradient(#9370DB 0%, #CEBEEF 100%);
+  background: -o-linear-gradient(#9370DB 0%, #CEBEEF 100%);
+  background: linear gradient(#9370DB 0%, #CEBEEF 100%);
+  background: -ms-linear-gradient(top,  #9370DB 0%,#CEBEEF 100%); /* IE10+ 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE+ */
+}
+
+h1{
+  text-align:center;
+  font-size: 25px;
+  background:#F5E1FD;
+
+}
+
+div p{
+	text-align: left;
+	float: center;
 }
 
 h3{
@@ -34,10 +61,46 @@ b{
 	font-size: 20px;
 }
 
+
+
+/* Start next and previous buttons*/
+a:hover {
+  background-color: #ADD8E6;
+  color: #000000;
+}
+
+.previous {
+  background-color: #FFFF33;
+  color: #000000;
+  float: inherit;
+  font-size: 20px ;
+}
+
+.next {
+  background-color: #FFFF33;
+  color: #000000;
+  float: right;
+  font-size: 20px;
+}
+/* End next and previous buttons*/
+
+/*Start Game 1*/
+#frame001{
+	background-color: #FFF0D8;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 80%;
+	height: auto;
+	padding: 2px;
+	margin-left: 10%;
+}
+
 #choises001{
   color: blue;
   font-size: 20px;
 }
+
+
 #color001{
 	color: black;
 	font-size: large;
@@ -67,37 +130,345 @@ b{
 	color: red;
 }
 
-h2{
-	font-size: 25px;
-	text-decoration: none;
+/*End Game 1*/
+
+
+/*Start Game 2*/
+#frame002{
+	background-color: #FFF0D8;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 80%;
+	height: auto;
+	padding: 2px;
+	margin-left: 10%;
 }
 
-body{
-    margin: 6px;
-    background-color: #EEDAF0;
+#choises002{
+  color: blue;
+  font-size: 20px;
 }
 
-header, footer{
-  text-transform: uppercase;
-  background-color: #AF69EE;
-  padding: 15px;
-  background: #9370DB;
-  background: -moz-linear-gradient(top,#9370DB);
-  background: -webkit-linear-gradient(#9370DB 0%, #CEBEEF 100%);
-  background: -o-linear-gradient(#9370DB 0%, #CEBEEF 100%);
-  background: linear gradient(#9370DB 0%, #CEBEEF 100%);
-  background: -ms-linear-gradient(top,  #9370DB 0%,#CEBEEF 100%); /* IE10+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE+ */
-}
 
-h1{
-  text-align:center;
-  font-size: 25px;
-  background:#F5E1FD;
-
-}
-
-div p{
+#color002{
+	color: black;
+	font-size: large;
 	text-align: left;
-	float: center;
 }
+
+#center003 {
+	text-align: center;
+}
+
+#center004 {
+	text-align: center;
+}
+
+.button003 {
+	background-color: #FCBACB;
+	color: black;
+	border-radius: 10px;
+	padding: 15px;
+	cursor: pointer;
+	font-size: 26px;
+}
+
+.button004{
+	width: 10px;
+	height: 10px;
+	color: red;
+}
+
+/*End Game 2*/
+
+/*Start Game 3*/
+#frame003{
+	background-color: #FFF0D8;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 80%;
+	height: auto;
+	padding: 2px;
+	margin-left: 10%;
+}
+
+#choises003{
+  color: blue;
+  font-size: 20px;
+}
+
+
+#color003{
+	color: black;
+	font-size: large;
+	text-align: left;
+}
+
+#center005 {
+	text-align: center;
+}
+
+#center006 {
+	text-align: center;
+}
+
+.button005 {
+	background-color: #FCBACB;
+	color: black;
+	border-radius: 10px;
+	padding: 15px;
+	cursor: pointer;
+	font-size: 26px;
+}
+
+.button006{
+	width: 10px;
+	height: 10px;
+	color: red;
+}
+
+/*End Game 3*/
+
+
+/*Start Game 4*/
+#frame004{
+	background-color: #FFF0D8;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 80%;
+	height: auto;
+	padding: 2px;
+	margin-left: 10%;
+}
+
+#choises004{
+  color: blue;
+  font-size: 20px;
+}
+
+
+#color004{
+	color: black;
+	font-size: large;
+	text-align: left;
+}
+
+#center007 {
+	text-align: center;
+}
+
+#center008 {
+	text-align: center;
+}
+
+.button007 {
+	background-color: #FCBACB;
+	color: black;
+	border-radius: 10px;
+	padding: 15px;
+	cursor: pointer;
+	font-size: 26px;
+}
+
+.button008{
+	width: 10px;
+	height: 10px;
+	color: red;
+}
+
+/*End Game 4*/
+
+
+/*Start Game 5*/
+#frame005{
+	background-color: #FFF0D8;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 80%;
+	height: auto;
+	padding: 2px;
+	margin-left: 10%;
+}
+
+#choises005{
+  color: blue;
+  font-size: 20px;
+}
+
+
+#color005{
+	color: black;
+	font-size: large;
+	text-align: left;
+}
+
+#center009 {
+	text-align: center;
+}
+
+#center010 {
+	text-align: center;
+}
+
+.button009 {
+	background-color: #FCBACB;
+	color: black;
+	border-radius: 10px;
+	padding: 15px;
+	cursor: pointer;
+	font-size: 26px;
+}
+
+.button010{
+	width: 10px;
+	height: 10px;
+	color: red;
+}
+
+/*End Game 5*/
+
+
+/*Start Game 6*/
+#frame006{
+	background-color: #FFF0D8;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 80%;
+	height: auto;
+	padding: 2px;
+	margin-left: 10%;
+}
+
+#choises006{
+  color: blue;
+  font-size: 20px;
+}
+
+
+#color006{
+	color: black;
+	font-size: large;
+	text-align: left;
+}
+
+#center011 {
+	text-align: center;
+}
+
+#center012 {
+	text-align: center;
+}
+
+.button011 {
+	background-color: #FCBACB;
+	color: black;
+	border-radius: 10px;
+	padding: 15px;
+	cursor: pointer;
+	font-size: 26px;
+}
+
+.button012{
+	width: 10px;
+	height: 10px;
+	color: red;
+}
+
+/*End Game 6*/
+
+/*Start Game 7*/
+#frame007{
+	background-color: #FFF0D8;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 80%;
+	height: auto;
+	padding: 2px;
+	margin-left: 10%;
+}
+
+#choises007{
+  color: blue;
+  font-size: 20px;
+}
+
+
+#color007{
+	color: black;
+	font-size: large;
+	text-align: left;
+}
+
+#center013 {
+	text-align: center;
+}
+
+#center014 {
+	text-align: center;
+}
+
+.button013 {
+	background-color: #FCBACB;
+	color: black;
+	border-radius: 10px;
+	padding: 15px;
+	cursor: pointer;
+	font-size: 26px;
+}
+
+.button014{
+	width: 10px;
+	height: 10px;
+	color: red;
+}
+
+/*End Game 7*/
+
+
+/*Start Game 8*/
+#frame008{
+	background-color: #FFF0D8;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 80%;
+	height: auto;
+	padding: 2px;
+	margin-left: 10%;
+}
+
+#choises008{
+  color: blue;
+  font-size: 20px;
+}
+
+
+#color008{
+	color: black;
+	font-size: large;
+	text-align: left;
+}
+
+#center015 {
+	text-align: center;
+}
+
+#center016 {
+	text-align: center;
+}
+
+.button015 {
+	background-color: #FCBACB;
+	color: black;
+	border-radius: 10px;
+	padding: 15px;
+	cursor: pointer;
+	font-size: 26px;
+}
+
+.button016{
+	width: 10px;
+	height: 10px;
+	color: red;
+}
+
+/*End Game 8*/
