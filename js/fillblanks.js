@@ -604,6 +604,7 @@ if (e1 == 1 && e2 == 1 && e3 == 1 && e4 == 1 && e5 == 1 && e6 == 1 && e7 == 1 &&
 	message005.innerHTML = "Congratulation! You have succesfully finished this quiz.";
 	disappear005.innerHTML = "";
 	reload005.innerHTML = "<div id=center009><button class=button009 onclick=repeat005()>Repeat</button></div>";
+	 
 
 }
 
@@ -1147,6 +1148,7 @@ function repeat007() {
 }
 
 
+
 ////////////////////////////////GAME 8///////////////////////////////////////////////
 var h1;
 var h2;
@@ -1162,186 +1164,172 @@ var h11;
 var h12;
 var h13;
 var h14;
-var h15;
-
 
 function submit008() {
-	h16 = input090.value;
-	h17 = input091.value;
-	h18 = input092.value;
-	h19 = input093.value;
-	h20 = input094.value;
-    h21 = input095.value;
-    h22 = input096.value;
-    h23 = input097.value;
-    h24 = input098.value;
-    h25 = input099.value;  
-    h26 = input100.value;
-    h27 = input101.value;
-    h28 = input102.value;
-    h29 = input103.value;
-    h30 = input104.value;
-    
+	h24 = input090.value;
+	h25 = input091.value;
+	h26 = input092.value;
+	h27 = input093.value;
+	h28 = input094.value;
+    h29 = input095.value;
+    h30 = input096.value;
+    h31 = input097.value;
+    h32 = input098.value;
+    h33 = input099.value;  
+    h34 = input100.value;
+    h35 = input101.value;
+    h36 = input102.value;
+    h37 = input103.value;
 
 
-
-          if (h16 == "kväll" || h16 == "Kväll") {
+          if (h24 == "skulle" || h24 == "Skulle") {
 	h1 = 1;
-	input090.value = h16;
+	input090.value = h24;
 	check090.innerHTML = "<text class=button016>" + "✔" + "</text>";
 } else {
-	input090.value = h16;
+	input090.value = h24;
 	check090.innerHTML = "<text class=button016>" + "✘" + "</text>";
   }  
 
 
-        if (h17 == "bord" || h17 == "Bord") {
+        if (h25 == "blandad" || h25 == "Blandad") {
 	h2 = 1;
-	input091.value = h17;
+	input091.value = h25;
 	check091.innerHTML = "<text class=button016>" + "✔" + "</text>";
 } else {
-	input091.value = h17;
+	input091.value = h25;
 	check091.innerHTML = "<text class=button016>" + "✘" + "</text>";
   } 
 
 
-        if (h18 == "nu" || h18 == "Nu") {
+        if (h26 == "smälter" || h26 == "Smälter") {
 	h3 = 1;
-	input092.value = h18;
+	input092.value = h26;
 	check092.innerHTML = "<text class=button016>" + "✔" + "</text>";
 } else {
-	input092.value = h18;
+	input092.value = h26;
 	check092.innerHTML = "<text class=button016>" + "✘" + "</text>";
   } 
 
 
-        if (h19 == "vi" || h19 == "Vi") {
+        if (h27 == "Ja" || h27 == "ja") {
 	h4 = 1;
-	input093.value = h19;
+	input093.value = h27;
 	check093.innerHTML = "<text class=button016>" + "✔" + "</text>";
 } else {
-	input093.value = h19;
+	input093.value = h27;
 	check093.innerHTML = "<text class=button016>" + "✘" + "</text>";
   } 
 
 
-        if (h20 == "beställa" || h20 == "Beställa") {
+        if (h28 == "annat" || h28 == "Annat") {
 	h5 = 1;
-	input094.value = h20;
+	input094.value = h28;
 	check094.innerHTML = "<text class=button016>" + "✔" + "</text>";
 } else {
-	input094.value = h20;
+	input094.value = h28;
 	check094.innerHTML = "<text class=button016>" + "✘" + "</text>";
   } 
 
 
-        if (h21 == "kyckling" || h21 == "Kyckling") {
+        if (h29 == "flaska" || h29 == "Flaska") {
 	h6 = 1;
-	input095.value = h21;
+	input095.value = h29;
 	check095.innerHTML = "<text class=button016>" + "✔" + "</text>";
 } else {
-	input095.value = h21;
+	input095.value = h29;
 	check095.innerHTML = "<text class=button016>" + "✘" + "</text>";
   } 
 
    
-          if (h22 == "Njut" || h22 == "njut") {
+          if (h30 == "Ta" || h30 == "ta") {
 	h7 = 1;
-	input096.value = h22;
+	input096.value = h30;
 	check096.innerHTML = "<text class=button016>" + "✔" + "</text>";
 } else {
-	input096.value = h22;
+	input096.value = h30;
 	check096.innerHTML = "<text class=button016>" + "✘" + "</text>";
   } 
 
 
 
-          if (h23 == "tack" || h23 == "Tack") {
+          if (h31 == "Ta" || h31 == "ta") {
 	h8 = 1;
-	input097.value = h23;
+	input097.value = h31;
 	check097.innerHTML = "<text class=button016>" + "✔" + "</text>";
 } else {
-	input097.value = h23;
+	input097.value = h31;
 	check097.innerHTML = "<text class=button016>" + "✘" + "</text>";
   } 
 
 
 
-          if (h24 == "annat" || h24 == "Annat") {
+          if (h32 == "det" || h32 == "Det") {
 	h9 = 1;
-	input098.value = h24;
+	input098.value = h32;
 	check098.innerHTML = "<text class=button016>" + "✔" + "</text>";
 } else {
-	input098.value = h24;
+	input098.value = h32;
 	check098.innerHTML = "<text class=button016>" + "✘" + "</text>";
   } 
  
 
 
-          if (h25 == "få" || h25 == "Få") {
+          if (h33 == "kontant" || h33 == "Kontant") {
 	h10 = 1;
-	input099.value = h25;
+	input099.value = h33;
 	check099.innerHTML = "<text class=button016>" + "✔" + "</text>";
 } else {
-	input099.value = h25;
+	input099.value = h33;
 	check099.innerHTML = "<text class=button016>" + "✘" + "</text>";
   } 
 
 
-           if (h26 == "det" || h26 == "Det") {
+           if (h34 == "Naturligtvis" || h34 == "naturligtvis") {
 	h11 = 1;
-	input100.value = h26;
+	input100.value = h34;
 	check100.innerHTML = "<text class=button016>" + "✔" + "</text>";
 } else {
-	input100.value = h26;
+	input100.value = h34;
 	check100.innerHTML = "<text class=button016>" + "✘" + "</text>";
   } 
 
 
-           if (h27 == "betala" || h27 == "Betala") {
+           if (h35 == "Här" || h35 == "här") {
 	h12 = 1;
-	input101.value = h27;
+	input101.value = h35;
 	check101.innerHTML = "<text class=button016>" + "✔" + "</text>";
 } else {
-	input101.value = h27;
+	input101.value = h35;
 	check101.innerHTML = "<text class=button016>" + "✘" + "</text>";
   } 
 
 
 
-            if (h28 == "hoppas" || h28 == "Hoppas") {
+            if (h36 == "tillbaka" || h36 == "Tillbaka") {
 	h13 = 1;
-	input102.value = h28;
+	input102.value = h36;
 	check102.innerHTML = "<text class=button016>" + "✔" + "</text>";
 } else {
-	input102.value = h28;
+	input102.value = h36;
 	check102.innerHTML = "<text class=button016>" + "✘" + "</text>";
   } 
 
 
 
-            if (h29 == "Det" || h29 == "det") {
+            if (h37 == "ses" || h37 == "Ses") {
 	h14 = 1;
-	input103.value = h29;
+	input103.value = h37;
 	check103.innerHTML = "<text class=button016>" + "✔" + "</text>";
 } else {
-	input103.value = h29;
+	input103.value = h37;
 	check103.innerHTML = "<text class=button016>" + "✘" + "</text>";
   } 
 
 
-            if (h30 == "också" || h30 == "Också") {
-	h15 = 1;
-	input104.value = h30;
-	check104.innerHTML = "<text class=button016>" + "✔" + "</text>";
-} else {
-	input104.value = h30;
-	check104.innerHTML = "<text class=button016>" + "✘" + "</text>";
-  }
-  
 
- 
-if (h1 == 1 && h2 == 1 && h3 == 1 && h4 == 1 && h5 == 1 && h6 == 1 && h7 == 1 && h8 == 1 && h9 == 1 && h10 == 1 && h11 == 1 && h12 == 1 && h13 == 1 && h14 == 1 && h15 == 1) {
+
+if (h1 == 1 && h2 == 1 && h3 == 1 && h4 == 1 && h5 == 1 && h6 == 1 && h7 == 1 && h8 == 1 && h9 == 1 && h10 == 1 && h11 == 1 && h12 == 1 && h13 == 1 && h14 == 1) {
 	message008.innerHTML = "Congratulation! You have succesfully finished this quiz.";
 	disappear008.innerHTML = "";
 	reload008.innerHTML = "<div id=center015><button class=button015 onclick=repeat008()>Repeat</button></div>";
@@ -1351,5 +1339,213 @@ if (h1 == 1 && h2 == 1 && h3 == 1 && h4 == 1 && h5 == 1 && h6 == 1 && h7 == 1 &&
 }
 
 function repeat008() {
+	location.reload();
+}
+
+
+////////////////////////////////GAME 9///////////////////////////////////////////////
+var i1;
+var i2;
+var i3;
+var i4;
+var i5;
+var i6;
+var i7;
+var i8;
+var i9;
+var i10;
+var i11;
+var i12;
+var i13;
+var i14;
+var i15;
+
+
+function submit009() {
+	i16 = input104.value;
+	i17 = input105.value;
+	i18 = input106.value;
+	i19 = input107.value;
+	i20 = input108.value;
+    i21 = input109.value;
+    i22 = input110.value;
+    i23 = input111.value;
+    i24 = input112.value;
+    i25 = input113.value;  
+    i26 = input114.value;
+    i27 = input115.value;
+    i28 = input116.value;
+    i29 = input117.value;
+    i30 = input118.value;
+    
+
+
+
+          if (i16 == "kväll" || i16 == "Kväll") {
+	i1 = 1;
+	input104.value = i16;
+	check104.innerHTML = "<text class=button018>" + "✔" + "</text>";
+} else {
+	input104.value = i16;
+	check104.innerHTML = "<text class=button018>" + "✘" + "</text>";
+  }  
+
+
+        if (i17 == "bord" || i17 == "Bord") {
+	i2 = 1;
+	input105.value = i17;
+	check105.innerHTML = "<text class=button018>" + "✔" + "</text>";
+} else {
+	input105.value = i17;
+	check105.innerHTML = "<text class=button018>" + "✘" + "</text>";
+  } 
+
+
+        if (i18 == "nu" || i18 == "Nu") {
+	i3 = 1;
+	input106.value = i18;
+	check106.innerHTML = "<text class=button018>" + "✔" + "</text>";
+} else {
+	input106.value = i18;
+	check106.innerHTML = "<text class=button018>" + "✘" + "</text>";
+  } 
+
+
+        if (i19 == "vi" || i19 == "Vi") {
+	i4 = 1;
+	input107.value = i19;
+	check107.innerHTML = "<text class=button018>" + "✔" + "</text>";
+} else {
+	input107.value = i19;
+	check107.innerHTML = "<text class=button018>" + "✘" + "</text>";
+  } 
+
+
+        if (i20 == "beställa" || i20 == "Beställa") {
+	i5 = 1;
+	input108.value = i20;
+	check108.innerHTML = "<text class=button018>" + "✔" + "</text>";
+} else {
+	input108.value = i20;
+	check108.innerHTML = "<text class=button018>" + "✘" + "</text>";
+  } 
+
+
+        if (i21 == "kyckling" || i21 == "Kyckling") {
+	i6 = 1;
+	input109.value = i21;
+	check109.innerHTML = "<text class=button018>" + "✔" + "</text>";
+} else {
+	input109.value = i21;
+	check109.innerHTML = "<text class=button018>" + "✘" + "</text>";
+  } 
+
+   
+          if (i22 == "Njut" || i22 == "njut") {
+	i7 = 1;
+	input110.value = i22;
+	check110.innerHTML = "<text class=button018>" + "✔" + "</text>";
+} else {
+	input110.value = i22;
+	check110.innerHTML = "<text class=button018>" + "✘" + "</text>";
+  } 
+
+
+
+          if (i23 == "tack" || i23 == "Tack") {
+	i8 = 1;
+	input111.value = i23;
+	check111.innerHTML = "<text class=button018>" + "✔" + "</text>";
+} else {
+	input111.value = i23;
+	check111.innerHTML = "<text class=button018>" + "✘" + "</text>";
+  } 
+
+
+
+          if (i24 == "annat" || i24 == "Annat") {
+	i9 = 1;
+	input112.value = i24;
+	check112.innerHTML = "<text class=button018>" + "✔" + "</text>";
+} else {
+	input112.value = i24;
+	check112.innerHTML = "<text class=button018>" + "✘" + "</text>";
+  } 
+ 
+
+
+          if (i25 == "få" || i25 == "Få") {
+	i10 = 1;
+	input113.value = i25;
+	check113.innerHTML = "<text class=button018>" + "✔" + "</text>";
+} else {
+	input113.value = i25;
+	check113.innerHTML = "<text class=button018>" + "✘" + "</text>";
+  } 
+
+
+           if (i26 == "det" || i26 == "Det") {
+	i11 = 1;
+	input114.value = i26;
+	check114.innerHTML = "<text class=button018>" + "✔" + "</text>";
+} else {
+	input114.value = i26;
+	check114.innerHTML = "<text class=button018>" + "✘" + "</text>";
+  } 
+
+
+           if (i27 == "betala" || i27 == "Betala") {
+	i12 = 1;
+	input115.value = i27;
+	check115.innerHTML = "<text class=button018>" + "✔" + "</text>";
+} else {
+	input115.value = i27;
+	check115.innerHTML = "<text class=button018>" + "✘" + "</text>";
+  } 
+
+
+
+            if (i28 == "hoppas" || i28 == "Hoppas") {
+	i13 = 1;
+	input116.value = i28;
+	check116.innerHTML = "<text class=button018>" + "✔" + "</text>";
+} else {
+	input116.value = i28;
+	check116.innerHTML = "<text class=button018>" + "✘" + "</text>";
+  } 
+
+
+
+            if (i29 == "Det" || i29 == "det") {
+	i14 = 1;
+	input117.value = i29;
+	check117.innerHTML = "<text class=button018>" + "✔" + "</text>";
+} else {
+	input117.value = i29;
+	check117.innerHTML = "<text class=button018>" + "✘" + "</text>";
+  } 
+
+
+            if (i30 == "också" || i30 == "Också") {
+	i15 = 1;
+	input118.value = i30;
+	check118.innerHTML = "<text class=button018>" + "✔" + "</text>";
+} else {
+	input118.value = i30;
+	check118.innerHTML = "<text class=button018>" + "✘" + "</text>";
+  }
+  
+
+ 
+if (i1 == 1 && i2 == 1 && i3 == 1 && i4 == 1 && i5 == 1 && i6 == 1 && i7 == 1 && i8 == 1 && i9 == 1 && i10 == 1 && i11 == 1 && i12 == 1 && i13 == 1 && i14 == 1 && i15 == 1) {
+	message009.innerHTML = "Congratulation! You have succesfully finished this quiz.";
+	disappear009.innerHTML = "";
+	reload009.innerHTML = "<div id=center017><button class=button017 onclick=repeat009()>Repeat</button></div>";
+
+}
+
+}
+
+function repeat009() {
 	location.reload();
 }
