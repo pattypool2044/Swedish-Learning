@@ -425,6 +425,7 @@ a:hover {
 /*End Game 7*/
 
 
+
 /*Start Game 8*/
 #frame008{
 	background-color: #FFF0D8;
@@ -472,3 +473,51 @@ a:hover {
 }
 
 /*End Game 8*/
+
+/*Start Game 9*/
+#frame009{
+	background-color: #FFF0D8;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 80%;
+	height: auto;
+	padding: 2px;
+	margin-left: 10%;
+}
+
+#choises009{
+  color: blue;
+  font-size: 20px;
+}
+
+
+#color0089{
+	color: black;
+	font-size: large;
+	text-align: left;
+}
+
+#center017 {
+	text-align: center;
+}
+
+#center018 {
+	text-align: center;
+}
+
+.button017 {
+	background-color: #FCBACB;
+	color: black;
+	border-radius: 10px;
+	padding: 15px;
+	cursor: pointer;
+	font-size: 26px;
+}
+
+.button018{
+	width: 10px;
+	height: 10px;
+	color: red;
+}
+
+/*End Game 9*/
